@@ -186,8 +186,8 @@
                         </div>
                         <div class="">
                             <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">M D Kabra</h6>
-                            <p>Naharraj Leela, 1 Ganga Soc, Shahibaug</p>
+                            <h6 class="text-danger">Chintamani Pareek</h6>
+                            <p>Jaipur B 77 Parshwanath colony Nirman nagar,Udhyan Path Ajmer road</p>
                         </div>
 
                     </div>

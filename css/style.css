@@ -4,12 +4,13 @@
 /* * css  */
 :root {
     --secondry_font_size: 16px;
-    --primary_Font_size: 1.4rem;
+    --primary_Font_size: 1.2rem;
     --content_heading: 2rem;
     --list_margin_bottom: .5rem;
-    --heading_font_weight: 600;
+    --heading_font_weight: 550;
     --box-shadow: 0px 2px 6px 1px lightgrey;
-    --box_normal_text: 400;
+    --box_normal_text: 500;
+  
 }
 /* *{
     border: 1px solid red;
@@ -18,11 +19,14 @@
 .normalText {
     font-size: var(--secondry_font_size);
     font-weight: var(--box_normal_text);
+    font-family:cursive;
+    color: #cd1432;
 }
 
 .primaryHeading {
     font-size: var(--primary_Font_size);
     font-weight: var(--heading_font_weight);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 
 .mainHeading {
@@ -188,6 +192,10 @@ button:focus, button:active, button:hover{
 .services_logo {
     height: 105px;
     background-size: cover;
+}
+.index-service-logo{
+    width: 60px;
+
 }
 
 .offeringservicesHeading:hover {
@@ -696,7 +704,58 @@ ul {
 
 .collabrationBanner{
     background-image: url(../images/ecovis_banners/mentor_bi.png);
-    filter: brightness(1);
+    filter:brightness(0.7);
+    z-index: 0;
+    position: relative;
+}
+.ourSolutionDropDowndiv{
+    width: 100%;
+    justify-content: center;
+    background: white;
+    padding: 27px;
+    margin-top: -50px;
+    box-shadow: 0px 12px 18px -6px rgba(29,37,45,0.2);
+    z-index: 5!important;
+    position: relative;
+}
+.form-select{
+    color: #999;
+    background-color:#1d252d;
+    padding: 16px 20px 16px 16px;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0;
+    /* -moz-appearance: none;
+    -webkit-appearance: none; 
+    appearance: none; */
+    border-radius: 0;
+}
+  .options{
+    padding: 3px;
+  }
+
+  @media only screen and (max-width: 559px) {
+    #cardsdiv{
+        width: 600px !important;
+    }
+  }
+  .singlecard{
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .singlecard:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* box shadow on hover */
+  }
+
+  .card-img-top{
+    height: 150px;
+    filter: brightness(.5);
+  }
+
+.card-img-top:hover{
+    filter: brightness(1) !important;
 }
 
 /* ecovis international page css  */
@@ -708,10 +767,32 @@ ul {
 
 }
 /* ecovisIndia page css  */
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
 .ecovisIndiaBanner{
     background-image: url(../images/ecovis_banners/homepage_b1_ecovis_india.png);
 }
-
+.team-person-div{
+    transition: transform .6s;
+}
+.team-person-div:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
 /* marketing_head page css  */
 
 .marketing_headBanner{
@@ -719,7 +800,6 @@ background-image: url(../images/ecovis_banners/marketing_head_banner.png);
 filter: brightness(1);
 
 }
-
 /* Business_Analyst page css  */
 
 .Business_AnalystBanner{
@@ -747,4 +827,11 @@ filter: brightness(1);
 }
 .Succession_PlanningBanner{
     background-image: url(../images/ecovis_banners/Succession_planning.png);
+}
+
+#m-8{
+    margin-left: 40px;
+}
+#m-7{
+    margin-right: 40px;
 }

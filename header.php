@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECOVISRKCA - Ecovis</title>
     <!-- font-awesome cdn  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- bootstrap css cdn  -->
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./bootstrap/bootstrap.css">
@@ -16,20 +18,30 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- jquery cdn  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+        integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- bootstrap javascript cdn  -->
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <!-- oul carousel link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- animate css cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -38,9 +50,12 @@
 <body>
     <header>
         <div class="row mx-0">
-            <div class="align-items-center col-md-12 bg-danger contact-header d-flex justify-content-end px-4 py-1 small text-light">
-                <a href="./NewsLetter" style="text-decoration: none; font-size:medium; font-weight: 500;" class="text-light"> <span><i class="fa-solid fa-newspaper"></i></span> NewsLetter</a>
-                <a href="#" style="text-decoration: none; font-size:medium; font-weight: 500;" class="text-light ml-3"> <span><i class="fa-solid fa-envelope"></i></span> Info@ecovisrkca.com</a>
+            <div
+                class="align-items-center col-md-12 bg-danger contact-header d-flex justify-content-end px-4 py-1 small text-light">
+                <a href="./NewsLetter" style="text-decoration: none; font-size:medium; font-weight: 500;"
+                    class="text-light"> <span><i class="fa-solid fa-newspaper"></i></span> NewsLetter</a>
+                <a href="#" style="text-decoration: none; font-size:medium; font-weight: 500;" class="text-light ml-3">
+                    <span><i class="fa-solid fa-envelope"></i></span> Info@ecovisrkca.com</a>
             </div>
             <div class="align-items-center col-md-12 d-flex justify-content-between main-header">
                 <div class="logo py-2 text-center">
@@ -48,7 +63,8 @@
                 </div>
                 <div style="display:none;" class="w-50" id="searchbar_section">
                     <div class="align-items-center d-flex px-4 searchbar ">
-                        <input type="search" name="searchbar" placeholder="Search..." autofocus="" id="searchbar" class="bg-light pl-3 border-0 normalText form-control w-100">
+                        <input type="search" name="searchbar" placeholder="Search..." autofocus="" id="searchbar"
+                            class="bg-light pl-3 border-0 normalText form-control w-100">
                         <span id="closeSearchBar"><i class="fa-solid text-danger fa-xmark"></i></span>
                     </div>
                 </div>
@@ -84,7 +100,8 @@
                     </ul>
 
                 </div>
-                <span id="menu_icon" class="menu_icon mr-3 d-none" style="font-size: x-large;"><i class="fa-solid fa-bars"></i></span>
+                <span id="menu_icon" class="menu_icon mr-3 d-none" style="font-size: x-large;"><i
+                        class="fa-solid fa-bars"></i></span>
             </div>
         </div>
         <!-- about us -->
@@ -94,15 +111,20 @@
                     <img src="./images/ecovis_logoes/Ecovis_rkca_logo_ball2.png" alt="" class="rounded-circle">
                 </div>
                 <h4 class="text-light  mt-3">Let’s Connect</h4>
-                <p class="mx-auto text-justify text-light mt-5 w-75">RKCA is an organization excelled by its Competency Centers with more than 5 decades of presence in India, having a global footprint with associates in more than 70+ countries. Our Purpose is to mentor start-ups &amp; SMEs of today as MNC’s for tomorrow.</p>
-                <a href="./contact_us"><button class="btn header_connectBTN mb-4 font-weight-bold text-light">CONTACT US</button></a>
+                <p class="mx-auto text-justify text-light mt-5 w-75">RKCA is an organization excelled by its Competency
+                    Centers with more than 5 decades of presence in India, having a global footprint with associates in
+                    more than 70+ countries. Our Purpose is to mentor start-ups &amp; SMEs of today as MNC’s for
+                    tomorrow.</p>
+                <a href="./contact_us"><button class="btn header_connectBTN mb-4 font-weight-bold text-light">CONTACT
+                        US</button></a>
             </div>
             <div class="col-md-4 ourPresents pt-4">
                 <h3 class="font-weight-normal d-inline ml-4 mt-3">Our Presence </h3>
                 <ul class="list-unstyled">
                     <li class="justify-content-between mb-3 mt-4">
                         <div class="align-items-center row">
-                            <a href="./ecovis_india" class="d-flex justify-content-between text-dark w-100" style=" text-decoration: none;">
+                            <a href="./ecovis_india" class="d-flex justify-content-between text-dark w-100"
+                                style=" text-decoration: none;">
                                 <div class="col-3 pr-0 text-center w-75">
                                     <i class="fa-solid fa-location-pin text-danger" style="font-size: 2.5rem; "></i>
                                 </div>
@@ -115,7 +137,8 @@
                     </li>
                     <li class="justify-content-between mb-1">
                         <div class="align-items-center row">
-                            <a href="./ecovis_International" class="d-flex justify-content-between text-dark w-100" style=" text-decoration: none;">
+                            <a href="./ecovis_International" class="d-flex justify-content-between text-dark w-100"
+                                style=" text-decoration: none;">
 
                                 <div class="col-3 pr-0 text-center w-75">
                                     <i class="fa-solid fa-earth-asia" style="font-size: 2.5rem; "></i>
@@ -139,7 +162,8 @@
                                 <img src="./ecovis_icons/r_in.png" class="" style="width: 84%;">
                             </div>
                             <div class="col-9 pl-0">
-                                <h4 class="mb-0 font-weight-normal" style="color:#4b4d4f !important"><span style="color: #CD1432;">R</span>esponsibility</h4>
+                                <h4 class="mb-0 font-weight-normal" style="color:#4b4d4f !important"><span
+                                        style="color: #CD1432;">R</span>esponsibility</h4>
                                 <p class="mb-0" style="color: #4b4d4f !important;">Towards profession</p>
                             </div>
                         </div>
@@ -150,7 +174,8 @@
                                 <img src="./ecovis_icons/k_in.png" class="" alt="" style="width: 88%;">
                             </div>
                             <div class="col-9 pl-0">
-                                <h4 class="mb-0 font-weight-normal" style="color:#4b4d4f !important"><span style="color: #CD1432;">K</span>nowledge</h4>
+                                <h4 class="mb-0 font-weight-normal" style="color:#4b4d4f !important"><span
+                                        style="color: #CD1432;">K</span>nowledge</h4>
                                 <p class="mb-0" style="color: #4b4d4f !important;">In people</p>
                             </div>
                         </div>
@@ -161,7 +186,8 @@
                                 <img src="./ecovis_icons/c_in.png" style="width: 60%;" alt="">
                             </div>
                             <div class="col-9 pl-0">
-                                <h4 class="mb-0 font-weight-normal" style="color:#4b4d4f !important"><span style="color: #CD1432;">C</span>ommitment</h4>
+                                <h4 class="mb-0 font-weight-normal" style="color:#4b4d4f !important"><span
+                                        style="color: #CD1432;">C</span>ommitment</h4>
                                 <p class="mb-0" style="color: #4b4d4f !important;">For Clients</p>
                             </div>
                         </div>
@@ -172,7 +198,8 @@
                                 <img src="./ecovis_icons/a_in.png" class="" alt="" style="width: 84%;">
                             </div>
                             <div class="col-9 pl-0">
-                                <h4 class="mb-0 font-weight-normal" style="color:#4b4d4f !important"><span style="color: #CD1432;">A</span>ccountability</h4>
+                                <h4 class="mb-0 font-weight-normal" style="color:#4b4d4f !important"><span
+                                        style="color: #CD1432;">A</span>ccountability</h4>
                                 <p class="mb-0" style="color: #4b4d4f !important;">to Society</p>
                             </div>
                         </div>
@@ -182,7 +209,7 @@
         </div>
 
         <!-- services  -->
-        
+
         <div class="mx-0 row  position-absolute " style="display: none; z-index: 1;" id="services_menu">
             <div class="col-md-4 text-center" style="background: linear-gradient(0deg, #CD1432, #dc4f54);">
                 <div class="mt-5 mx-auto px-2 py-2 rounded-circle" style="width: 210px;">
@@ -201,15 +228,18 @@
                     <div class="row mt-3">
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled">
-                                <a href="./Strategy_Performance_Consulting_services" style="text-decoration: none;" class="text-dark">
+                                <a href="./Strategy_Performance_Consulting_services" style="text-decoration: none;"
+                                    class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75">
-<!--                                                <img src="./images/ecovis_logoes/Core-Creators-Logo-768x260.png" class="" style="width: 67%;" alt="">-->
+                                                <img src="./images/ecovis_logoes/Core-Creators-Logo-768x260.png"
+                                                    class="" style="width: 67%;" alt="">
                                             </div>
                                             <div class="col-9 pl-0">
                                                 <h5 class="mb-1 serviceName">Strategy and Performance Consulting</h5>
-                                                <p class="mb-0 small">Goal-oriented service focuses on the gaps between business and performance outcomes</p>
+                                                <p class="mb-0 small">Goal-oriented service focuses on the gaps between
+                                                    business and performance outcomes</p>
                                             </div>
                                         </div>
                                     </li>
@@ -222,10 +252,11 @@
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75  ">
-                                                <img src="./images/ecovis_logoes/rkca-law-associates-lawyer-job-mumbai-1.png" class="" style="width: 67%;" alt="">
+                                                <img src="./images/ecovis_logoes/rkca-law-associates-lawyer-job-mumbai-1.png"
+                                                    class="" style="width: 67%;" alt="">
                                             </div>
                                             <div class="col-9 pl-0">
-                                                <h5 class="mb-1 serviceName">Litigation, GRC Transaction Advisory</h5>
+                                                <h5 class="mb-1 serviceName">Legal and GRC Services</h5>
                                                 <p class="mb-0 small">Aiding you with legal advises and policies</p>
                                             </div>
                                         </div>
@@ -245,8 +276,8 @@
                                                 alt=""> -->
                                             </div>
                                             <div class="col-9 pl-0">
-                                                <h5 class="mb-1 serviceName">Onshore and Offshore Advisory</h5>
-                                                <p class="mb-0 small">Assisting Companies with overseeing Accounting and Tax commitments in India and overseas</p>
+                                                <h5 class="mb-1 serviceName">Business Support  and Financial Reporting</h5>
+                                                <p class="mb-0 small">Efficient business support is crucial for accurate financial reporting and sustained organizational growth.</p>
                                             </div>
                                         </div>
                                     </li>
@@ -256,16 +287,19 @@
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled mb-0">
-                                <a href="./Financial_and_Capital_Services" style="text-decoration: none;" class="text-dark">
+                                <a href="./Financial_and_Capital_Services" style="text-decoration: none;"
+                                    class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
-                                            <div class="col-3 pr-0 text-center w-75  menu_services_logo financial_capital_Services">
+                                            <div
+                                                class="col-3 pr-0 text-center w-75  menu_services_logo financial_capital_Services">
                                                 <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
                                                 alt=""> -->
                                             </div>
                                             <div class="col-9 pl-0">
                                                 <h5 class="mb-1 serviceName">Financial & Capital Services</h5>
-                                                <p class="mb-0 small">Offering services to make your business financially sound</p>
+                                                <p class="mb-0 small">Offering services to make your business
+                                                    financially sound</p>
                                             </div>
                                         </div>
                                     </li>
@@ -280,12 +314,13 @@
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75 ">
-                                                <img src="./ecovis/images/ecovis_logoes/gbtLogo.png" class="" style="width: 67%;"
-                                           alt="">
+                                                <img src="./images/ecovis_logoes/gbtLogo.png" class=""
+                                                    style="width: 67%;" alt="">
                                             </div>
                                             <div class="col-9 pl-0">
                                                 <h5 class="mb-1 serviceName">Digital Transformations</h5>
-                                                <p class="mb-0 small">Transform and foster your business with our tech experts and Data analytics team</p>
+                                                <p class="mb-0 small">Transform and foster your business with our tech
+                                                    experts and Data analytics team</p>
                                             </div>
                                         </div>
                                     </li>
@@ -419,18 +454,18 @@
     </header>
 
     <script>
-        $("#about_us").click(function() {
+        $("#about_us").click(function () {
             $("#aboutUs_menu").slideToggle();
             $("#services_menu").slideUp();
             // $("#menu").slideUp();
         });
-        $("#services").click(function() {
+        $("#services").click(function () {
             $("#services_menu").slideToggle();
             $("#aboutUs_menu").slideUp();
             // $("#menu").slideUp();
 
         });
-        $("#menu_icon").click(function() {
+        $("#menu_icon").click(function () {
             $("#menu").slideToggle();
             // $("#aboutUs_menu").slideUp();
             // $("#services_menu").slideUp();
@@ -441,8 +476,8 @@
 
 
         // toggleSearch 
-        $("#toggleSearch").click(function() {
-            $("#menu").slideToggle(function() {
+        $("#toggleSearch").click(function () {
+            $("#menu").slideToggle(function () {
                 $("#searchbar_section").slideToggle();
                 // $("#searchbar_section").css({"visibility":"visible"});
             });
@@ -450,8 +485,8 @@
 
 
         });
-        $("#closeSearchBar").click(function() {
-            $("#searchbar_section").slideToggle(function() {
+        $("#closeSearchBar").click(function () {
+            $("#searchbar_section").slideToggle(function () {
                 // $("#searchbar_section").css({"visibility":"hidden"});
                 $("#menu").slideToggle();
 
@@ -463,12 +498,12 @@
         //         $("#menu").slideUp();
         //     }
         // });
-        $(document).mouseup(function(e) {
+        $(document).mouseup(function (e) {
             if ($(e.target).closest("#aboutUs_menu").length === 0 && $(e.target).closest("#about_us").length === 0 && $(e.target).closest("header").length === 0) {
                 $("#aboutUs_menu").slideUp();
             }
         });
-        $(document).mouseup(function(e) {
+        $(document).mouseup(function (e) {
             if ($(e.target).closest("#services_menu").length === 0 && $(e.target).closest("#services").length === 0) {
                 $("#services_menu").slideUp();
             }

@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECOVISRKCA - Business Support and Financial Reporting
     </title>
-    <link rel="icon" href="../images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
+    <link rel="icon" href="./images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -63,17 +64,17 @@
         <!-- <div class="">
             <p class="mb-4 mt-5 mainHeading px-3 text-center">Our sub-offerings</p>
         </div> -->
-        <div class="discribeStory mt-5">
+        <!-- <div class="discribeStory mt-5">
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
                     <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="../images/icon_images/BusinessSupportandFinancialReporting/AccountingServices.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/AccountingServices.png" class="w-75" alt=""> -->
 
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
-                                </div>
+                                <!-- </div>
 
                             </div>
                         </div>
@@ -93,10 +94,10 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="../images/icon_images/BusinessSupportandFinancialReporting/BusinessAnalytics.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/BusinessAnalytics.png" class="w-75" alt=""> -->
 
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
-                                </div>
+                                <!-- </div>
 
                             </div>
                         </div>
@@ -117,10 +118,10 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="../images/icon_images/BusinessSupportandFinancialReporting/IndiaEntryConsulting.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/IndiaEntryConsulting.png" class="w-75" alt=""> -->
 
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
-                                </div>
+                                <!-- </div>
 
                             </div>
                         </div>
@@ -141,10 +142,10 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="../images/icon_images/BusinessSupportandFinancialReporting/ManagementSystems.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/ManagementSystems.png" class="w-75" alt="">
 
-                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
-                                </div>
+                                   <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
+                                <!-- </div>
 
                             </div>
                         </div>
@@ -166,10 +167,10 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="../images/icon_images/BusinessSupportandFinancialReporting/MISDashboards.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/MISDashboards.png" class="w-75" alt="">  -->
 
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
-                                </div>
+                                <!-- </div>
 
                             </div>
                         </div>
@@ -190,10 +191,10 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="../images/icon_images/BusinessSupportandFinancialReporting/OnGoingBusinessSupport.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/OnGoingBusinessSupport.png" class="w-75" alt=""> -->
 
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
-                                </div>
+                                <!-- </div>
 
                             </div>
                         </div>
@@ -210,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
                     <div class=" mb-3 row" >
@@ -235,11 +236,154 @@
                     </div>
                 </div>
             </div> -->
+        <!-- </div> -->
+    </div>
+    <div class=' d-flex justify-content-center py-5 bg-body-secondary'>
+        <div class="accordion w-100 col-md-9" id="accordionExample">
+
+            <!-- Item 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/BusinessSupportandFinancialReporting/BusinessAnalytics.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Accounting and Payroll</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                        Transform your financial landscape with our AI-based accounting services. Harness cutting-edge technology for precise record-keeping, ensuring accuracy and efficiency. Elevate your financial management with innovative solutions tailored for modern businesses. Achieve smarter, streamlined operations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/BusinessSupportandFinancialReporting/ManagementSystems.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Auditing and Assurance Services </p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    Elevate your business confidence with our auditing and assurance services. Uncover insights, mitigate risks, and ensure regulatory compliance. Our meticulous capability and leverage of technology empowers informed decisions, safeguarding your financial integrity and fostering trust in the operations and mandatory regulatory compliances.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat the structure for items 3 to 6 -->
+
+            <!-- Item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/BusinessSupportandFinancialReporting/IndiaEntryConsulting.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> ESOP and Capital Structure Advisory</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    We recognize that many businesses encounter challenges in talent retention and securing funding in later stages due to mismatches in their capital structure and entity type with the envisioned business plan. Our ESOP and Capital Structure Advisory services are designed to provide strategic guidance, ensuring alignment between  capital structure, entity type, and the long-term vision of the company.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/BusinessSupportandFinancialReporting/AccountingServices.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Business Roadmap Advisory</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    In the world of AI, business doesnt use technology, but technology is business, at the same time  the human touch of the story of any business is critical to  engage various stake holders or raise resources, with understanding of business , technology and finance we help companies understand what really makes them tick Co-create the execution plan and see it unfolding may it be Investor Pitch Decks, Business Plans, Executive Summaries, Information Memorandums, Financial Modeling,  DCF Valuations, or assistance in execution of stratefy using our proprietary tools of Value Dynamic Diagnostics (VDD) and Investment worthiness Diagnostics (IN-WORTH)
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/BusinessSupportandFinancialReporting/OnGoingBusinessSupport.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> ESG Reporting & Advisory</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    World is responding to growing ESG (Environmental, Social, and Governance) and sustainability concerns with strict regulatory measures. These include assistance in End-to-End ESG Data management & prepare , CBAM Reports,  GRI , TCFD and Business Responsibility and Sustainability Reports (BRSR) ,  along with supporting  clients in  scrutiny of third-party verification for sustainability disclosures.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/BusinessSupportandFinancialReporting/MISDashboards.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Tax Advisory and Compliances </p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                                            
+                            "Our tax advisory services offer comprehensive guidance on tax strategies, compliance, and regulations. We navigate complexities, ensuring your business meets all obligations while optimizing tax efficiency. Trust us for seamless tax management and strategic compliance."
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- footer  -->
     <?php include_once "footer.php" ?>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -32,6 +32,9 @@
             text-overflow: ellipsis;
 
         }
+        .carousel-control-next-icon{
+        background-color: white ;
+    }
       
     </style>
 
@@ -186,13 +189,92 @@
 
     </div>
     <div class="row mx-0 justify-content-center">
-        <div class="col-lg-10 col-sm-11">
-            <div class="row mx-0 mb-4" id="ServicesOffered">
+        <div class="col-lg-12 col-sm-11">
+            <div class="row mx-0 justify-content-around">
 
+            <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
+                    <a href="./LitigationLegalServices" class="text-dark" style="text-decoration: none;">
+                        <div class="text-center">
+                            <div class="mx-auto service_icons">
+                                <!-- <div class=" w-75 mx-auto services_logo Legalb_logo"></div> -->
+
+                                <img src="./new_icon_images/Legalb.png" class="index-service-logo" alt="">
+                            </div>
+                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Legal and GRC Services</h4>
+                            <p class="offeringservicesdetails">We create a platform to offer you legal services and consultancy.</p>
+                        </div>
+                    </a>
+
+
+                </div>
+           
+                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
+                    <a href="./BusinessSupportandFinancialReporting" class="text-dark" style="text-decoration: none;">
+                        <div class="text-center">
+                            <div class="mx-auto service_icons">
+                                <!-- <div class=" w-75 mx-auto businessSupport_logo services_logo"></div> -->
+                                <img src="./new_icon_images/BusinessSupportb.png" class="index-service-logo" alt="">
+                            </div>
+                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Business Support  and Financial Reporting</h4>
+                            <p class="offeringservicesdetails">Offering accounting business support to grow your business.</p>
+                        </div>
+                    </a>
+
+                </div>
             </div>
+
+            <div class="row mx-0 justify-content-around">
+           
+                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
+                    <a href="./Strategy_Performance_Consulting_services" class="text-dark" style="text-decoration: none;">
+                        <div class="text-center">
+                            <div class="mx-auto service_icons  ">
+                                <!-- <div class=" w-75 mx-auto services_logo Strategy_Performance_Consulting_logo "></div> -->
+                                <img src="./ecovis_icons/Assurance.png" class="index-service-logo" alt="">
+                            </div>
+                            <h4 class="offeringservicesHeading primaryHeading">Strategy & Performance Consulting </h4>
+                            <p class="offeringservicesdetails">Giving you the certainty to drive open and straightforward development.</p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="row mx-0  justify-content-around">
+                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
+                    <a href="./Digital_transformation" class="text-dark" style="text-decoration: none;">
+                        <div class="text-center">
+                            <div class="mx-auto service_icons">
+                                <!-- <div class=" w-75 mx-auto Digital_Transformationb_logo services_logo"></div> -->
+
+                                <img src="./new_icon_images/Digital_Transformationb.png" class="index-service-logo" alt="">
+                            </div>
+                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Digital Transformation</h4>
+                            <p class="offeringservicesdetails">Transform and foster your business digitally using our digital transformation services.</p>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
+                    <a href="./Financial_and_Capital_Services" class="text-dark" style="text-decoration: none;">
+                        <div class="text-center">
+                            <div class="mx-auto service_icons">
+                                <!-- <div class=" w-75 mx-auto services_logo financial_capital_Services"></div> -->
+
+                                <img src="./ecovis_icons/Growth-Services.png" class="index-service-logo" alt="">
+                            </div>
+                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Financial & Capital Services </h4>
+                            <p class="offeringservicesdetails">We want to build a long-term value in the financial services business by transforming it from the ground up.</p>
+                        </div>
+                    </a>
+
+                </div>
+             </div>
+          
         </div>
     </div>
 
+
+  
     <!-- Client stories  -->
     <div class="mainHeading text-center  mt-5" id="client_Stories">
         <h2 class="text-capitalize mainHeading mb-5">Know Us through Our Clients</h2>

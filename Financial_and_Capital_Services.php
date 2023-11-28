@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECOVISRKCA - Financial and Capital Services
     </title>
-    <link rel="icon" href="../images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
-
+    <link rel="icon" href="./images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -62,7 +62,7 @@
         <!-- <div class="">
             <p class="mb-4 mt-5 mainHeading px-3 text-center">Our sub-offerings</p>
         </div> -->
-        <div class="discribeStory mt-5">
+        <!-- <div class="discribeStory mt-5">
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
                     <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
@@ -71,7 +71,6 @@
                                 <div class="mx-auto service_icons">
                                 <img src="./images/icon_images/FinancialCapitalServices/BusinessValuations.png" class="w-75" alt="">
 
-                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -97,7 +96,6 @@ We have clients with valuation of their enterprises and commercial interests, as
                                 <div class="mx-auto service_icons">
                                 <img src="./images/icon_images/FinancialCapitalServices/TradeWorkingCapitalFinance.png" class="w-75" alt="">
 
-                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -122,7 +120,6 @@ Our broad trade and capital finance capabilities provide you with the flexibilit
                                 <div class="mx-auto service_icons">
                                 <img src="./images/icon_images/FinancialCapitalServices/FinancialRestructuring.png" class="w-75" alt="">
 
-                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -147,7 +144,6 @@ We assist you in developing a pre-and post-financial restructuring action plan, 
                                 <div class="mx-auto service_icons">
                                 <img src="./images/icon_images/FinancialCapitalServices/FinancialPlanningControl.png" class="w-75" alt="">
 
-                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -170,7 +166,6 @@ We assist you in developing a strategy that will support your organization's who
                                 <div class="mx-auto service_icons">
                                 <img src="./images/icon_images/FinancialCapitalServices/BusinessPlanPitchDecks.png" class="w-75" alt="">
 
-                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -194,7 +189,6 @@ We provide end-to-end support for creating business plan pitch decks, with a str
                                 <div class="mx-auto service_icons">
                                 <img src="./images/icon_images/FinancialCapitalServices/BudgetingandCapitalAdvisory.png" class="w-75" alt="">
 
-                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -211,35 +205,155 @@ We assist you in determining your budgeting and capital requirements by estimati
                     </div>
                 </div>
             </div>
-            <!-- <div class="justify-content-center mx-0 row">
-                <div class="col-md-8">
-                    <div class=" mb-3 row" >
-                        <div class="col-3">
-                            <div class="text-center">
-                                <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
-                                </div>
+        
+        </div> -->
+    </div>
+    <div class=' d-flex justify-content-center py-5 bg-body-secondary'>
+        <div class="accordion w-100 col-md-9" id="accordionExample">
 
-                            </div>
+            <!-- Item 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/FinancialCapitalServices/BusinessValuations.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Strategic Finance </p>
                         </div>
-                        <div class="col-9">
-                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Intellectual Property  </p>
-
-                            <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            Over the years, ECOVIS' specialised IP team has grown to be one of the largest practises among India's full-service law firms, representing a diverse spectrum of clients in industries such as pharmaceuticals, chemicals, mechanical engineering, technology, retail, and others. Patents, designs, trademarks, copyrights, plant varieties, domain names, geographical indications, biodiversity issues, trade secrets, and sensitive information are all areas where our Intellectual Property (IP) lawyers can help.
-
-                                Our team consists of legal and technical professionals who work together to provide bespoke, pragmatic, and cost-effective solutions based on our clients' commercial, strategic, and technical objectives. We help a wide range of clients with local and international filings, prosecutions, advice services, transactions, and enforcement.
-
-                            </p>
-                        </div>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                        Finance blood line of any  business. But rarely we understand importance of managing , the power of finance is never unlocked. As Strategic Finance partnew we enable capability building to Co-Create common understanding for  finance and  business, to develop unique ability of becoming proactive and pragmatic enbling BIG PICTURE thinking. Internal capability building with external expertise of Fund Raising, Financial planning, Business Reporting, energise with AI Driven Compliance reporting and Book Keeping is
+                        </p>
                     </div>
                 </div>
-            </div> -->
+            </div>
+
+            <!-- Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/FinancialCapitalServices/BudgetingandCapitalAdvisory.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Financial Restructuring</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    Empower your financial journey with our services, guiding you through pre- and post-financial restructuring. We offer strategic action plans and contingency preparations to navigate the complexities, ensuring a robust and resilient financial future for your business
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat the structure for items 3 to 6 -->
+
+            <!-- Item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/FinancialCapitalServices/BusinessPlanPitchDecks.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Budgeting and Capital Advisory</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                   
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/FinancialCapitalServices/FinancialRestructuring.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Trade & Working Capital Finance</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                   
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/FinancialCapitalServices/FinancialPlanningControl.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Transaction Advisory </p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    Established since 1974 and having presence in all major cities of India and , we have privilege of constantly interacting with startups and Business as well as HNI and Investors, so either if client is  looking for help to invest or need assistance to raise capital, our experience of buyside/sell side advisory and network in 90 Countries will be of advantage. 
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <div class="mx-auto w-100  d-flex  align-items-center">
+                            <img src="./images/icon_images/FinancialCapitalServices/TradeWorkingCapitalFinance.png" class="" alt=""
+                                style='width:80px'>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">M&A Support Services</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    A Merger or an Acquisition is not made on the negotiation table or in a board room. It is all those things that happen after they come together, and appreciating before they decided to be together. We help businesses unlock this value with an objective oriented, procedurally structured, outcome based view to synergy.  We hand hold clients from Due Diligence, Synergy analytics, transaction structuring, transaction management or post transaction integration.
+
+                     </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- footer  -->
     <?php include_once "footer.php" ?>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

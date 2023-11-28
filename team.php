@@ -87,13 +87,10 @@
     <p class="normalText menterBidetail">The people who intensify business capabilities</p>
 </div> -->
 <div class="bg-danger pb-4 pt-3" style="box-shadow: var(--box-shadow);">
-    <p class="text-center text-light mt-3 w-75 mx-auto normalText">
-        Enhance and grow your business using our expertise and services! Our staff are our most valuable asset since
-        they
-        work together and integrate unique capacities, backgrounds, and individual goals.
+    <p class="text-center text-light mt-3 w-75 mx-auto normalText ">
+    Enhance and grow your business using our expertise and services! Our team is our most valuable asset since they work together and integrate unique approach, backgrounds, and individual expertise to build your business.
     </p>
-    <p class="text-center text-light mt-3 w-75 mx-auto normalText">Meet the people who make an impact in the community
-        of business. The expertise is led by the best in the industry.</p>
+    <p class="text-center text-light mt-3 w-75 mx-auto normalText">Entrepreneurial Model Driven by Common values and accountable governing structure</p>
 
 
 </div>

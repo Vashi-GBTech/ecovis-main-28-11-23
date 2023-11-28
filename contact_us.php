@@ -170,7 +170,7 @@
             </div>
             <div class="align-items-center d-flex ">
                 <span><i class="fa-solid text-danger fa-envelope mr-2" style="font-size: x-large;"></i></span>
-                <a href="https://rmt.ecovisrkca.com/email_client1">info@ecovisrkca.com</a>
+                <a href="https://rmt.ecovisrkca.com/email_client1" style='color: crimson;'>info@ecovisrkca.com</a>
             </div>
         </div>
     </div>

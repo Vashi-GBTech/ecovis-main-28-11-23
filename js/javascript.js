@@ -474,19 +474,19 @@ const ManagementBoard = [
     {
     image: '01_Pankaj_Bhargava.jpg',
     Name: 'Pankaj Bhargava',
-    position: 'Strategy & Performance Consulting',
+    position: 'Org Culture and Accountability',
     id: 1
 },
     {
         image: '06_Sanjeev_Bindal.jpg',
         Name: 'Sanjeev Bindal',
-        position: 'Litigation & Legal Services',
+        position: ' Org Regulation and Structure',
         id: 2
     },
     {
         image: '02_Dheeraj_rathi.jpg',
         Name: 'Dheeraj Rathi',
-        position: 'Cross border & Merchant Banking Advice',
+        position: 'Org Growth and Expansion',
         id: 3
     },
 ];
@@ -512,34 +512,35 @@ const COEBoard = [
     {
     image: '22_shruti.jpg',
     Name: 'Shruti Ambegaonkar',
-    position: 'Strategy & Performance Consulting',
+    position: 'Lead Strategy and Performance Consulting',
     id: 4
 },
     {
         image: '03_Bharat_Mishra.jpg',
         Name: 'Bharat Mishra',
-        position: 'Digital Transformation & Data Analytics',
+        position: ' Lead Digital Transformation and Tech Solution',
         id: 5
     },
     {image: '23_pankaj_monga.jpeg', Name: 'Pankaj Monga', position: 'Legal, GRC and IPR', id: 6},
-    {image: '05_Manish_Adukia.jpg', Name: 'Manish Adukia', position: 'Professional Services', id: 7},
+    {image: '05_Manish_Adukia.jpg', Name: 'Manish Adukia', position: 'Lead Business Support  and Financial Reporting', id: 7},
     {
         image: '10_Bala.png',
         Name: 'D. Bala',
-        position: 'Associate Director at Netrika Consulting India Pvt Ltd',
+        position: 'Lead Legal and GRC Services',
         id: 8
     }
 ];
 
 COEBoard.map((value) => {
     let html = `<a href="http://localhost/ecovis/teamSpecification?id=${value.id} " class="text-dark" style="text-decoration: none">
- <li  id="${value.id}">
+ <li  id="m-${value.id}">
                             <div class=" text-center">
                                 <div class="mx-auto" style="width: 120px; ">
                                     <img src="./ourTeam_B&W/${value.image}" class="w-100" alt="">
                                 </div>
                                 <h6 class=" h6 mb-0">${value.Name}</h6>
-                                <p class="">${value.position}</p>
+                                <div class='d-flex justify-content-center' ><p class="w-75">${value.position}</p>
+                            </div>
                             </div>
                         </li>
 </a>`;
