@@ -36,33 +36,21 @@
         </p>
         <div class="mx-auto text-center w-50">
             <div class="btn-group py-3" style="width: 30%;">
-                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="box-shadow: 1px 2px 4px gray;">
-                Select role level
+                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark " data-toggle="dropdown" aria-expanded="false" style="box-shadow: 1px 2px 4px gray;">
+                Select Enagagement level
                 </button>
-                <div class="dropdown-menu w-100">
-                    <button class="dropdown-item" type="button">Assistant Manager</button>
-                    <button class="dropdown-item" type="button">Associste</button>
-                    <button class="dropdown-item" type="button">Business Support</button>
-                    <button class="dropdown-item" type="button">Director</button>
-                    <button class="dropdown-item" type="button">Graduate</button>
-                    <button class="dropdown-item" type="button">partner</button>
-                    <button class="dropdown-item" type="button">Senior</button>
-                    <button class="dropdown-item" type="button">Supervisor</button>
-                    <!-- <button class="dropdown-item" type="button">Closure of Concern</button> -->
+                <div class="dropdown-menu ">
+                    <button class="dropdown-item" type="button">Intern</button>
+                    <button class="dropdown-item" type="button">Manager</button>
+                    <button class="dropdown-item" type="button">Business Consultant</button>
+                    <button class="dropdown-item" type="button">Professional Partner</button>
+
                 </div>
             </div>
-            <!-- <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
-                <p class="mb-0">Select role level</p>
-                <span><i class="fa-solid fa-caret-down text-danger"></i></span>
-            </div> -->
+
         </div>
 
-        <!-- <div class="select_location border p-2 mb-3 mt-1 w-25 rounded" id="indexProblemDD">
-            <p class="border-dark form-control mb-2 mx-auto genderValue activeSelection" onclick="genderValue(this,'Male');" style="border-radius: 7px; width: 95%; ">PROBLEM 1</p>
-            <p class="border-dark form-control mb-2 mx-auto   genderValue" onclick="genderValue(this,'Female');" style="border-radius: 7px; width: 95%;">PROBLEM 2</p>
-            <p class="border-dark form-control mb-2 mx-auto genderValue" onclick="genderValue(this,'Other');" style="border-radius: 7px; width: 95%;">PROBLEM 3</p>
-        </div> -->
-
+ 
     </div>
 
     <div class="row justify-content-around " style="margin: 3.5rem 0rem;">
@@ -70,9 +58,8 @@
             <div class="text-center">
                 <h2 class="text-center mb-5" style="font-size: var(--primary_Font_size); font-weight:var(--heading_font_weight);">We will believe in bringing out the best from the people who work with us</h2>
 
-                <p class="w-75 mx-auto  text-center " style="font-size: var(--secondry_font_size); font-weight:var(--box_normal_text);">At Ecovis, we're pleased to develop our own ability by fostering our people right from the start through to
-                    proficient capabilities and beyond. We likewise value the benefit of enrolling experienced staff with in depth
-                    knowledge and skills. This assists us to infuse and curate new ideas and perspective to our team.
+                <p class="w-75 mx-auto  text-center " style="font-size: var(--secondry_font_size); font-weight:var(--box_normal_text);">At ECOVIS RKCA , we're excited to be a part of decade we believe belong to India, a key pillar for us  to develop our own ability  is by investing in people. We are constantly looking to expand our family, please connect if you want to be a part of the exciting journey.
+
                 </p>
 
             </div>
@@ -85,24 +72,49 @@
             <div class="row mx-0 border border-danger mb-4" style="border-radius: 7px;box-shadow: 0px 1px 5px 1px #cececc">
                 <div class="col-md-3 px-0 ">
                     <h6 class="bg-secondary job-title w-75 text-center mt-3 py-2 text-light" style="    box-shadow: 0px 1px 5px 1px grey">MANAGER</h6>
-                    <p class="text-center text-danger w-75"><span>Posted on : </span><span>25th May, 2022</span></p>
+                    <!-- <p class="text-center text-danger w-75"><span>Posted on : </span><span>25th May, 2022</span></p> -->
                 </div>
                 <div class="col-md-9">
                     <h4 class=" job_post mt-3 py-2">Marketing head</h4>
-                    <p class=" job_post_discription w-75">Want to be a part of India's most innovative and creative commerce industry, backed by a worldclass team, a long-term vision, and top global investors? Don't just wish for it, work with us!</p>
+                    <p class=" job_post_discription w-75">Business Growth : Want to be a part of India's most innovative and holistic business growth consulting team? We are working on a model of enabling the Indian Startup and MSME Ecosystem, want to be part of it ? Connect Us</p>
                     <div class="my-4 pt-2 text-center w-75"><a href="./Marketing_head"><button style="    box-shadow: 0px 1px 5px 1px grey" class="btn btn-danger px-4 font-weight-bold text-light">VIEW DETAILS</button></a></div>
                 </div>
 
             </div>
             <div class="row mx-0 border border-danger mb-4" style="border-radius: 7px;     box-shadow: 0px 1px 5px 1px #cececc">
                 <div class="col-md-3 px-0 ">
-                    <h6 class="bg-secondary job-title w-75 text-center  mt-3 py-2 text-light" style="    box-shadow: 0px 1px 5px 1px grey">TRAINEE</h6>
-                    <p class="text-center text-danger w-75"><span>Posted on : </span><span>25th May, 2022</span></p>
+                    <h6 class="bg-secondary job-title w-75 text-center  mt-3 py-2 text-light" style="    box-shadow: 0px 1px 5px 1px grey">BUSINESS ANALYST</h6>
+                    <!-- <p class="text-center text-danger w-75"><span>Posted on : </span><span>25th May, 2022</span></p> -->
                 </div>
                 <div class="col-md-9">
-                    <h4 class=" job_post mt-3 py-2">Business Analyst</h4>
-                    <p class="job_post_discription w-75">Want to be a part of India's most innovative and creative commerce industry, backed by a worldclass team, a long-term vision, and top global investors? Don't just wish for it, work with us!</p>
-                    <div class="my-4 pt-2 text-center w-75"><a href="./Business_Analyst"><button style="    box-shadow: 0px 1px 5px 1px grey" class="btn btn-danger  px-4 font-weight-bold text-light">VIEW DETAILS</button></a></div>
+                    <h4 class=" job_post mt-3 py-2">Business Consultant</h4>
+                    <p class="job_post_discription w-75">Want to leverage  our global consulting network with our Competency centres of Digital Transformation, Project Management, and Business Support. Elevate your practice on an international stage, shaping industries and driving growth. Connect for an unparalleled experience in shaping the growth in what we believe is India's Decade.</p>
+                    <div class="my-4 pt-2 text-center w-75"><a href=".Business_Analyst"><button style="    box-shadow: 0px 1px 5px 1px grey" class="btn btn-danger  px-4 font-weight-bold text-light">VIEW DETAILS</button></a></div>
+                </div>
+
+            </div>
+            
+             <div class="row mx-0 border border-danger mb-4" style="border-radius: 7px;box-shadow: 0px 1px 5px 1px #cececc">
+                <div class="col-md-3 px-0 ">
+                    <h6 class="bg-secondary job-title w-75 text-center mt-3 py-2 text-light" style="    box-shadow: 0px 1px 5px 1px grey">PARTNER</h6>
+                    <!-- <p class="text-center text-danger w-75"><span>Posted on : </span><span>25th May, 2022</span></p> -->
+                </div>
+                <div class="col-md-9">
+                    <h4 class=" job_post mt-3 py-2">Professional Partner</h4>
+                    <p class=" job_post_discription w-75">If you are running a legal or Accounting practice and want to leverage  technology,  global consulting network and impeccable  record of professional reputation spanning over 5 Decades. Connect us to explore possibility  of trusted brand which has served Indian business across the Globe, Connect us for journey to future .</p>
+                    <div class="my-4 pt-2 text-center w-75"><a href="#"><button style="    box-shadow: 0px 1px 5px 1px grey" class="btn btn-danger px-4 font-weight-bold text-light">VIEW DETAILS</button></a></div>
+                </div>
+
+            </div>
+            <div class="row mx-0 border border-danger mb-4" style="border-radius: 7px;box-shadow: 0px 1px 5px 1px #cececc">
+                <div class="col-md-3 px-0 ">
+                    <h6 class="bg-secondary job-title w-75 text-center mt-3 py-2 text-light" style="    box-shadow: 0px 1px 5px 1px grey">INTERN</h6>
+                    <!-- <p class="text-center text-danger w-75"><span>Posted on : </span><span>25th May, 2022</span></p> -->
+                </div>
+                <div class="col-md-9">
+                    <h4 class=" job_post mt-3 py-2"> Today Learners</h4>
+                    <p class=" job_post_discription w-75">Want to learn nuances of business consulting, Embark on a dynamic journey with our vibrant  team! Join us for an internship that blends innovation and expertise. Unleash your potential in a collaborative environment, shaping tomorrow's success. Elevate your career; apply now and thrive with us!"</p>
+                    <div class="my-4 pt-2 text-center w-75"><a href="#"><button style="    box-shadow: 0px 1px 5px 1px grey" class="btn btn-danger px-4 font-weight-bold text-light">VIEW DETAILS</button></a></div>
                 </div>
 
             </div>

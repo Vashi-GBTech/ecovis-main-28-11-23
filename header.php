@@ -234,7 +234,7 @@
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75">
                                                 <img src="./images/ecovis_logoes/Core-Creators-Logo-768x260.png"
-                                                    class="" style="width: 67%;" alt="">
+                                                    class="" style="width: 75%;" alt="">
                                             </div>
                                             <div class="col-9 pl-0">
                                                 <h5 class="mb-1 serviceName">Strategy and Performance Consulting</h5>
@@ -253,7 +253,7 @@
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75  ">
                                                 <img src="./images/ecovis_logoes/rkca-law-associates-lawyer-job-mumbai-1.png"
-                                                    class="" style="width: 67%;" alt="">
+                                                    class="" style="width: 75%;" alt="">
                                             </div>
                                             <div class="col-9 pl-0">
                                                 <h5 class="mb-1 serviceName">Legal and GRC Services</h5>
@@ -271,9 +271,9 @@
                                 <a href="./Onshore_Offshore_Advisory" style="text-decoration: none;" class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
-                                            <div class="col-3 pr-0 text-center w-75  menu_services_logo Onshoreb_logo ">
-                                                <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
-                                                alt=""> -->
+                                            <div class="col-3 pr-0 text-center w-75    ">
+                                                <img src="./images/ecovis_logoes/rkda.png" class="" style="width: 100%;"
+                                                alt="">
                                             </div>
                                             <div class="col-9 pl-0">
                                                 <h5 class="mb-1 serviceName">Business Support  and Financial Reporting</h5>
@@ -293,7 +293,7 @@
                                         <div class="align-items-center row">
                                             <div
                                                 class="col-3 pr-0 text-center w-75  menu_services_logo financial_capital_Services">
-                                                <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 75%;"
                                                 alt=""> -->
                                             </div>
                                             <div class="col-9 pl-0">
@@ -315,7 +315,7 @@
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75 ">
                                                 <img src="./images/ecovis_logoes/gbtLogo.png" class=""
-                                                    style="width: 67%;" alt="">
+                                                    style="width: 75%;" alt="">
                                             </div>
                                             <div class="col-9 pl-0">
                                                 <h5 class="mb-1 serviceName">Digital Transformations</h5>
@@ -351,7 +351,7 @@
                                     <li class="mb-1 d-flex justify-content-between align-items-center">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75  menu_services_logo Strategy_Performance_Consulting_logo">
-                                                <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 75%;"
                                                     alt="">
                                             </div>
                                             <div class="col-9 pl-0">
@@ -364,7 +364,7 @@
                                     <li class="mb-1 d-flex justify-content-between align-items-center">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75">
-                                                <img src="./ecovis_icons/RISK COMPLIANCE.png" class="" style="width: 67%;"
+                                                <img src="./ecovis_icons/RISK COMPLIANCE.png" class="" style="width: 75%;"
                                                     alt="">
                                             </div>
                                             <div class="col-9 pl-0">
@@ -377,7 +377,7 @@
                                     <li class="mb-1 d-flex justify-content-between align-items-center">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75">
-                                                <img src="./ecovis_icons/Business-Support.png" class="" style="width: 67%;"
+                                                <img src="./ecovis_icons/Business-Support.png" class="" style="width: 75%;"
                                                     alt="">
                                             </div>
                                             <div class="col-9 pl-0">
@@ -394,7 +394,7 @@
                                     <li class="mb-1 d-flex justify-content-between align-items-center">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75">
-                                                <img src="./ecovis_icons/LEgal-Support.png" class="" style="width: 67%;"
+                                                <img src="./ecovis_icons/LEgal-Support.png" class="" style="width: 75%;"
                                                     alt="">
                                             </div>
                                             <div class="col-9 pl-0">
@@ -408,7 +408,7 @@
                                     <li class="mb-1 d-flex justify-content-between align-items-center">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75">
-                                                <img src="./ecovis_icons/Growth-Services.png" class="" style="width: 67%;"
+                                                <img src="./ecovis_icons/Growth-Services.png" class="" style="width: 75%;"
                                                     alt="">
                                             </div>
                                             <div class="col-9 pl-0">
@@ -422,7 +422,7 @@
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75">
                                                 <img src="./ecovis_icons/Digital-Transformation.png" class=""
-                                                    style="width: 67%;" alt="">
+                                                    style="width: 75%;" alt="">
                                             </div>
                                             <div class="col-9 pl-0">
                                                 <h5 class="mb-1">Digital transformation</h5>
