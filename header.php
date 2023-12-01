@@ -83,7 +83,7 @@
                             <li id="services">Practice Areas</li>
                         </a>
                         <a href="./team">
-                            <li>Our team</li>
+                            <li>Experts on Board</li>
                         </a>
                         <!-- <a href="./NewsLetter">
                             <li>Newsletter</li>

@@ -44,7 +44,7 @@
                         <!-- <a href="./Onshore_Offshore_Advisory "><li>Onshore & Offshore Advisory</li></a> -->
                         <!-- <a href="./Government_risk_compliance "> <li>Governance Risk & Compliance</li></a> -->
                         <a href="./BusinessSupportandFinancialReporting "> <li>Business Support & Financial Reporting</li></a>
-                        <a href="./LitigationLegalServices "><li>Litigation & Legal Services</li></a>
+                        <a href="./LitigationLegalServices "><li>Legal & GRC Services</li></a>
                         <a href="./Financial_and_Capital_Services "><li>Financial & Capital Services</li></a>
                         <a href="./Digital_transformation "><li>Digital Transformation</li></a>
                         <!-- <a href="./Crossborderandmerchantbankingservices "><li>Cross Border & Merchant Banking Advice</li></a> -->
@@ -100,17 +100,17 @@
                         <a href="./Strategy_Performance_Consulting_services ">
                             <li>Strategy & Perfomance Consulting</li>
                         </a>
-                        <a href="./Onshore_Offshore_Advisory ">
+                        <!-- <a href="./Onshore_Offshore_Advisory ">
                             <li>Onshore & Offshore Advisory</li>
-                        </a>
-                        <a href="./Government_risk_compliance ">
+                        </a> -->
+                        <!-- <a href="./Government_risk_compliance ">
                             <li>Governance Risk & Compliance</li>
-                        </a>
+                        </a> -->
                         <a href="./BusinessSupportandFinancialReporting ">
                             <li>Business Support & Financial Reporting</li>
                         </a>
                         <a href="./LitigationLegalServices ">
-                            <li>Litigation & Legal Services</li>
+                            <li>Legal & GRC Services</li>
                         </a>
                         <a href="./Financial_and_Capital_Services ">
                             <li>Financial & Capital Services</li>
@@ -118,9 +118,9 @@
                         <a href="./Digital_transformation ">
                             <li>Digital Transformation</li>
                         </a>
-                        <a href="./Crossborderandmerchantbankingservices ">
+                        <!-- <a href="./Crossborderandmerchantbankingservices ">
                             <li>Cross Border & Merchant Banking Advice</li>
-                        </a>
+                        </a> -->
                     </ul>
                 </div>
             </div>

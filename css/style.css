@@ -766,6 +766,25 @@ ul {
     filter: brightness(1);
 
 }
+
+
+/* team about me */
+.aboutMeName{
+    color: white;
+    display: flex;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: serif;
+    justify-content: center;
+}
+
+.img-style-about{
+    width:250px ;
+    border-radius:50%;
+    box-shadow: 2px -1px 8px 2px;
+    width: inherit !important;
+}
 /* ecovisIndia page css  */
 .cssanimation, .cssanimation span {
     animation-duration: 1s;
@@ -784,6 +803,7 @@ ul {
 }
 .ecovisIndiaBanner{
     background-image: url(../images/ecovis_banners/homepage_b1_ecovis_india.png);
+    /* filter: brightness(2) !important; */
 }
 .team-person-div{
     transition: transform .6s;
@@ -793,45 +813,104 @@ ul {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.1); 
   }
+  .memberpage{
+    text-decoration: none;
+    color: black;
+  }
+  .memberpage:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .red-info-div-1,.red-info-div-2{
+    background-color: #cd1432;
+    padding: 30px 0px;
+  }
+  .red-info{
+    background-color: #cd1432;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 35px 38px 90px 38px;
+    margin-top: -3px;
+    font-weight: 500;
+  }
+  .ourTeamDropDowndiv{
+    width: 100%;
+    justify-content: center;
+    background: white;
+    padding: 27px;
+    margin-top: -30px;
+    box-shadow: 0px 12px 18px -6px rgba(29,37,45,0.2);
+    z-index: 5!important;
+    position: relative;
+}
+.team-search{
+    height: -webkit-fill-available;
+    background-color: #1d252d;
+    width: inherit;
+    color: white;
+    padding: 13px 10px;
+}
+input:focus,select:focus{
+    outline: none;
+}
+.ourTeamDropDowndiv ::placeholder{
+    color: white;
+    font-size: 13px;
+}
+select{
+    color: white;
+}
+.desc-div-team{
+  display: flex;
+  justify-content: center;
+}
+
+/* @media (max-width :480px){
+    .remove-width{
+    width: 0px !important;
+}
+} */
+.memberName{
+    font-size:  22px !important;
+    font-weight: 800;
+    text-transform: uppercase!important;
+    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+    line-height: 1.5em;
+}
+.details{
+    font-size: 15px;
+    font-family: cursive;
+    font-style: italic;
+    color: #cd1432;
+    line-height: 1.6em;
+}
 /* marketing_head page css  */
 
-.marketing_headBanner{
-background-image: url(../images/ecovis_banners/marketing_head_banner.png);
-filter: brightness(1);
 
-}
-/* Business_Analyst page css  */
+::-webkit-scrollbar { 
+    width: 0px!important;
+  }
 
-.Business_AnalystBanner{
-    background-image: url(../images/ecovis_banners/business_analys_banner.png);
-    filter: brightness(1);
-}
 
-/* jobapplication page css  */
-
-.jobapplicationBanner{
-    background-image: url(../images/ecovis_banners/Apply_banner.png);
-}
-
-/* Private_Limited_CompanyBanner */
-
-.Private_Limited_CompanyBanner{
-    background-image: url(../images/ecovis_banners/Apply_banner.png);
-}
-.One_Person_CompanyBanner{
-    background-image: url(../images/ecovis_banners/one_person_company.png);
-}
-.Business_RestructuringBanner{
-    background-image: url(../images/ecovis_banners/business_restructuring.png);
-
-}
-.Succession_PlanningBanner{
-    background-image: url(../images/ecovis_banners/Succession_planning.png);
-}
 
 #m-8{
     margin-left: 40px;
 }
 #m-7{
     margin-right: 40px;
+}
+
+/* accordion css */
+.change-img-filter{
+  filter: grayscale(1);
+}
+.change-img-filter:hover{
+  filter: unset;
+}
+.accordion-button:not(.collapsed){
+    background-color: #EAD7DD !important;
+}
+.accordion-button:focus{
+    box-shadow: 0 0 0 0.25rem rgba(255, 150, 150, 0.25) !important;
 }
