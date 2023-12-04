@@ -333,27 +333,40 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const paragraphs = document.querySelectorAll('.see-more');
+
             paragraphs.forEach(paragraph => {
                 const words = paragraph.textContent.split(' ');
                 let wordsArray = words.filter(word => word.trim() !== '');
-                // console.log(wordsArray,'words');
-                if (wordsArray.length > 30) {
-                    const firstPart = wordsArray.slice(0, 30).join(' ');
-                    const secondPart = wordsArray.slice(30).join(' ');
-                    paragraph.innerHTML = `${firstPart} <span class="see-more-link fw-bold" style="color: crimson; cursor: pointer;">See more</span><span class="remaining-text" style="display: none;"> ${secondPart}</span>`;
-                    const seeMoreLinks = paragraph.querySelectorAll('.see-more-link');
-                    const remainingTexts = paragraph.querySelectorAll('.remaining-text');
-                    seeMoreLinks.forEach(seeMore => {
-                        seeMore.addEventListener('click', function () {
-                            seeMore.style.display = 'none';
-                            remainingTexts.forEach(remainingText => {
-                                remainingText.style.display = 'inline';
-                            });
-                        });
+
+                if (wordsArray.length > 20) {
+                    const firstPart = wordsArray.slice(0, 20).join(' ');
+                    const remainingPart = wordsArray.slice(20).join(' ');
+                    const fullText = wordsArray.join(' ');
+
+                    paragraph.innerHTML = `${firstPart} <span class="see-more-link fw-bold" style="color: crimson; cursor: pointer;">See more</span><span class="remaining-text" style="display: none;"> ${remainingPart}</span><span class="see-less-link fw-bold" style="display: none;color: crimson; cursor: pointer;"> See less</span><span class="full-text" style="display: none;"> ${fullText}</span>`;
+
+                    const seeMoreLinks = paragraph.querySelector('.see-more-link');
+                    const seeLessLinks = paragraph.querySelector('.see-less-link');
+                    const remainingText = paragraph.querySelector('.remaining-text');
+                    const fullTextSpan = paragraph.querySelector('.full-text');
+
+                    seeMoreLinks.addEventListener('click', function () {
+                        seeMoreLinks.style.display = 'none';
+                        seeLessLinks.style.display = 'inline';
+                        remainingText.style.display = 'inline';
+                        fullTextSpan.style.display = 'none';
+                    });
+
+                    seeLessLinks.addEventListener('click', function () {
+                        seeMoreLinks.style.display = 'inline';
+                        seeLessLinks.style.display = 'none';
+                        remainingText.style.display = 'none';
+                        fullTextSpan.style.display = 'none';
                     });
                 }
             });
         });
+
     </script>
 
 </body>

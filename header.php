@@ -59,7 +59,9 @@
         width: 100%;
         background-color: crimson;
     }
-
+    .menu ul a.active-link{
+        color: crimson !important;
+    }
     .menu ul a:hover .underline {
         background-color: crimson;
         width: 100%;
@@ -67,6 +69,7 @@
 
     .menu ul a.nav-link {
         padding: 0px !important;
+        
     }
 
     .menu ul a:active li {

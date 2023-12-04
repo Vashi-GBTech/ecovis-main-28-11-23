@@ -355,41 +355,70 @@
     <script type="text/javascript" src="./js/jqvmap/dist/maps/jquery-jvectormap-in-merc.js" charset="utf-8"></script>
     <script src="./js/javascript.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const paragraphs = document.querySelectorAll('#future-engaging-points');
-            paragraphs.forEach(paragraph => {
-               seeMore(paragraph,'s');
-            });
-            const LargerParagraph = document.querySelector('#future-engaging-points-large');
-             if (LargerParagraph) {
-                seeMore(LargerParagraph,'l');
-             }
+    document.addEventListener('DOMContentLoaded', function () {
+        const paragraphs = document.querySelectorAll('#future-engaging-points');
+        paragraphs.forEach(paragraph => {
+            seeMore(paragraph, 's');
         });
-        function seeMore(paragraph,type){
-            const words = paragraph.textContent.split(' ');
-                let wordsArray = words.filter(word => word.trim() !== '');
-                // console.log(wordsArray,'words');
-                if (wordsArray.length > 20) {
-                    const firstPart = wordsArray.slice(0, 20).join(' ');
-                    const secondPart = wordsArray.slice(20).join(' ');
-                    paragraph.innerHTML = `${firstPart} <span class="see-more-link fw-bold" style="color: crimson; cursor: pointer;">See more</span><span class="remaining-text" style="display: none;"> ${secondPart}</span>`;
-                    const seeMoreLinks = paragraph.querySelectorAll('.see-more-link');
-                    const remainingTexts = paragraph.querySelectorAll('.remaining-text');
-                    seeMoreLinks.forEach(seeMore => {
-                        seeMore.addEventListener('click', function () {
-                            seeMore.style.display = 'none';
-                            remainingTexts.forEach(remainingText => {
-                                remainingText.style.display = 'inline';
-                            });
-                            if (type === 'l') {
-                                $('#remained-part-future-engaging').css('display', 'block');
-
-                            }
-                        });
-                    });
-                }
+        
+        const LargerParagraph = document.querySelector('#future-engaging-points-large');
+        if (LargerParagraph) {
+            seeMore(LargerParagraph, 'l');
         }
-    </script>
+    });
+
+    function seeMore(paragraph, type) {
+        const words = paragraph.textContent.split(' ');
+        let wordsArray = words.filter(word => word.trim() !== '');
+
+        if (wordsArray.length > 20) {
+            const firstPart = wordsArray.slice(0, 20).join(' ');
+            const secondPart = wordsArray.slice(20).join(' ');
+
+            paragraph.innerHTML = `${firstPart} <span class="see-more-link " style="color: crimson; cursor: pointer; font-weight:600;">See more</span><span class="remaining-text" style="display: none;"> ${secondPart}</span>`;
+
+            const seeMoreLinks = paragraph.querySelectorAll('.see-more-link');
+            const remainingTexts = paragraph.querySelectorAll('.remaining-text');
+
+            seeMoreLinks.forEach(seeMore => {
+                seeMore.addEventListener('click', function () {
+                    seeMore.style.display = 'none';
+                    remainingTexts.forEach(remainingText => {
+                        remainingText.style.display = 'inline';
+                    });
+
+                    if (type === 'l') {
+                        $('#remained-part-future-engaging').css('display', 'block');
+                    }
+
+                    // Show See Less functionality
+                    const seeLess = document.createElement('span');
+                    seeLess.classList.add('see-less-link');
+                    seeLess.style.color = 'crimson';
+                    seeLess.style.fontWeight = '600';
+                    seeLess.style.cursor = 'pointer';
+                    seeLess.textContent = ' See less';
+
+
+                    paragraph.appendChild(seeLess);
+
+                    seeLess.addEventListener('click', function () {
+                        seeMore.style.display = 'inline';
+                        seeLess.style.display = 'none';
+                        remainingTexts.forEach(remainingText => {
+                            remainingText.style.display = 'none';
+                        });
+
+                        if (type === 'l') {
+                            $('#remained-part-future-engaging').css('display', 'none');
+                        }
+                    });
+                });
+            });
+        }
+    }
+</script>
+
 </body>
 
 </html>
