@@ -28,7 +28,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Recommendation and assistance to client for implementing improved internal controls.</h5>
+                            <h5 class="primaryHeading mb-4 ">Recommendation and assistance to client for implementing improved internal controls.</h5>
                             <p class="normalText text-justify mb-4">One of Uruguay's major passenger transport companies, regulated by the authorities, has asked to review its purchasing process and cash flow.</p>
                         </div>
                         <div class="d-flex">

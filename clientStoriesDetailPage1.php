@@ -29,7 +29,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Combined efforts bagging successful outcomes!</h5>
+                            <h5 class="primaryHeading mb-4 ">Combined efforts bagging successful outcomes!</h5>
                             <p class="normalText text-justify mb-4">The main motive of our company which is completely aimed at is to render professional services to its potential clients from different fields of the varied economy sectors. Out of the services facilitated so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose functionality was for the accommodation services, gym facilities, social events, restaurants and sports events, etc.</p>
                         </div>
                         <div class="d-flex">

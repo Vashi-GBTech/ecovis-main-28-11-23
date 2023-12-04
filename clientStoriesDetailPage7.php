@@ -29,7 +29,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Redesigning of an American Wholesale Company.</h5>
+                            <h5 class="primaryHeading mb-4 ">Redesigning of an American Wholesale Company.</h5>
                             <p class="normalText text-justify mb-4">BPM Australia could be a huge, fast-moving worldwide discount company for customer merchandise. The firm had extended into New Zealand with trade and property interests.</p>
                         </div>
                         <div class="d-flex">

@@ -28,7 +28,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">SEKO Group located in Czech earned German Smithy Company</h5>
+                            <h5 class="primaryHeading mb-4 r">SEKO Group located in Czech earned German Smithy Company</h5>
                             <p class="normalText text-justify mb-4">Our client, SEKO Group, may be a driving Czech-based producer of key components for flying machine fly motors and steam turbines. The company moreover fabricates total penetrating rigs for clients around the world and has generation offices in Brazil and India.</p>
                         </div>
                         <div class="d-flex">

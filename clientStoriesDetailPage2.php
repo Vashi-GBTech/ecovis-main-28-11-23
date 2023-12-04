@@ -29,7 +29,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">A Lending Hand for the procuration of the client!</h5>
+                            <h5 class="primaryHeading mb-4 ">A Lending Hand for the procuration of the client!</h5>
                             <p class="normalText text-justify mb-4">With the mission of owning and operating high-quality wireless infrastructure sites in stable markets, PTI was established in the year 2013.</p>
                         </div>
                         <div class="d-flex">

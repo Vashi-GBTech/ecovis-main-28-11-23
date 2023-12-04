@@ -28,7 +28,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Facilitation of collective outsources accounting, local tax compliance, and company formation services!</h5>
+                            <h5 class="primaryHeading mb-4 ">Facilitation of collective outsources accounting, local tax compliance, and company formation services!</h5>
                             <p class="normalText text-justify mb-4">The client is a subsidiary of a multinational company based in Turkey that functions in various fields of batteries, chargers, accessories for motive, etc.</p>
                         </div>
                         <div class="d-flex">

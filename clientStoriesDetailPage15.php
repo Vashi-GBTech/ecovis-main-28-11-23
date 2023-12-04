@@ -28,7 +28,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Ukraine International Airways and ECOVIS Bondar & Bondar</h5>
+                            <h5 class="primaryHeading mb-4">Ukraine International Airways and ECOVIS Bondar & Bondar</h5>
                             <p class="normalText text-justify mb-4">Ukraine International Airlines (UIA) is Ukraine’s leading airline established in 1992.</p>
                         </div>
                         <div class="d-flex">

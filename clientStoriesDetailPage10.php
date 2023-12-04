@@ -28,7 +28,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">We help the private bank with anti-money washing and counter-terrorism financing compliance</h5>
+                            <h5 class="primaryHeading mb-4 ">We help the private bank with anti-money washing and counter-terrorism financing compliance</h5>
                             <p class="normalText text-justify mb-4">Uruguay’s second most important private bank was gained by an international bank. Thus, the local bank was obliged to adjust to the rules and controls of its modern head office.</p>
                         </div>
                         <div class="d-flex">

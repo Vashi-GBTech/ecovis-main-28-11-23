@@ -367,7 +367,7 @@
                     const remainingPart = wordsArray.slice(20).join(' ');
                     const fullText = wordsArray.join(' ');
 
-                    paragraph.innerHTML = `${firstPart} <span class="see-more-link fw-bold" style="color: crimson; cursor: pointer;">See more</span><span class="remaining-text" style="display: none;"> ${remainingPart}</span><span class="see-less-link fw-bold" style="display: none;color: crimson; cursor: pointer;"> See less</span><span class="full-text" style="display: none;"> ${fullText}</span>`;
+                    paragraph.innerHTML = `${firstPart} <span class="see-more-link fw-bold" style="color: crimson; cursor: pointer;">See more...</span><span class="remaining-text" style="display: none;"> ${remainingPart}</span><span class="see-less-link fw-bold" style="display: none;color: crimson; cursor: pointer;"> ...See less</span><span class="full-text" style="display: none;"> ${fullText}</span>`;
 
                     const seeMoreLinks = paragraph.querySelector('.see-more-link');
                     const seeLessLinks = paragraph.querySelector('.see-less-link');

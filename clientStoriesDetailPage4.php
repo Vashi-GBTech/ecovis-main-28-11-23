@@ -28,7 +28,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Facilitating assistance for the expansion of Spanish automotive components producer.</h5>
+                            <h5 class="primaryHeading mb-4 ">Facilitating assistance for the expansion of Spanish automotive components producer.</h5>
                             <p class="normalText text-justify mb-4">Our consumer could be a major transnational company within the automotive sector, with varied plants in Spain that manufacture automotive components. The corporate required to expand one in all its plants in Northern Spain to extend its production capacity.</p>
                         </div>
                         <div class="d-flex">

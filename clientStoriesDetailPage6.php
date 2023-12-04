@@ -29,7 +29,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Assistance provided to electrical contractors for avoiding double taxation.</h5>
+                            <h5 class="primaryHeading mb-4">Assistance provided to electrical contractors for avoiding double taxation.</h5>
                             <p class="normalText text-justify mb-4">Our client is a massive electrical contracting business located in New Zealand. The company has developed industrial electrical and control systems and expanded its activities to Australia. </p>
                         </div>
                         <div class="d-flex">

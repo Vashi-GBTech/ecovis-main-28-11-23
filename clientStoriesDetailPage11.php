@@ -28,7 +28,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">We help the start-ups gain a competitive edge in the Polish market.</h5>
+                            <h5 class="primaryHeading mb-4 ">We help the start-ups gain a competitive edge in the Polish market.</h5>
                             <p class="normalText text-justify mb-4">Our client is a young and dynamic company that provides a platform for online table reservations in restaurants. The company currently provides services in 12 countries around the world and is constantly striving to expand its market scope. Founded in 2012, the successful and fast-growing company quickly joined the list of 25 European start-ups.</p>
                         </div>
                         <div class="d-flex">

@@ -29,7 +29,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Tax and advisory services rendered to UK start-up</h5>
+                            <h5 class="primaryHeading mb-4 ">Tax and advisory services rendered to UK start-up</h5>
                             <p class="normalText text-justify mb-4">Our client is an imaginative UK start-up within the field of computerized investigate and substance curation/maintenance.</p>
                         </div>
                         <div class="d-flex">

@@ -28,7 +28,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Scenario of non-habitual tax resident in Portugal</h5>
+                            <h5 class="primaryHeading mb-4">Scenario of non-habitual tax resident in Portugal</h5>
                             <p class="normalText text-justify mb-4">Our clients' businesses are focused on providing IT services, including market observations, feasibility studies, competitive assessments, IT project management support, and standard software maintenance. </p>
                         </div>
                         <div class="d-flex">

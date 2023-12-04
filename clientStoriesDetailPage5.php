@@ -29,7 +29,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Rendering extensive start-up services to our clients!</h5>
+                            <h5 class="primaryHeading mb-4">Rendering extensive start-up services to our clients!</h5>
                             <p class="normalText text-justify mb-4">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV
                                 series, was put in touch with Ecovis Sydney in November 2012 because they needed to
                                 establish their imprint quickly, before Christmas!</p>

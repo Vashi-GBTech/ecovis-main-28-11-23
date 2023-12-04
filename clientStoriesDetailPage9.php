@@ -29,7 +29,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4 text-center">Offering continuous back to outside bank department with administrative reporting</h5>
+                            <h5 class="primaryHeading mb-4 ">Offering continuous back to outside bank department with administrative reporting</h5>
                             <p class="normalText text-justify mb-4">A department of a foreign bank was subject to certain limitations on enlisting proficient staff</p>
                         </div>
                         <div class="d-flex">
