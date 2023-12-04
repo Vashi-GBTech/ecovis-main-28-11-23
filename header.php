@@ -46,6 +46,39 @@
     <!-- animate css cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+<style>
+    .menu ul a .underline {
+        height: 3px;
+        background-color: transparent;
+        width: 0%;
+        transition: width 0.2s, background-color 0.5s;
+        margin: 0 auto;
+    }
+
+    .menu ul a.active-link .underline {
+        width: 100%;
+        background-color: crimson;
+    }
+
+    .menu ul a:hover .underline {
+        background-color: crimson;
+        width: 100%;
+    }
+
+    .menu ul a.nav-link {
+        padding: 0px !important;
+    }
+
+    .menu ul a:active li {
+        transition: none;
+        color: rgba(255, 255, 255, 0.76);
+    }
+
+    .menu ul a:active .underline {
+        transition: none;
+        background-color: rgba(255, 255, 255, 0.76);
+    }
+</style>
 
 <body>
     <header>
@@ -59,7 +92,7 @@
             </div>
             <div class="align-items-center col-md-12 d-flex justify-content-between main-header">
                 <div class="logo py-2 text-center">
-                    <a href="./index"><img src="./ecovis-images/ecovis-logo.jpeg" alt=""></a>
+                    <a href="./index" id='ecovis-logo'><img src="./ecovis-images/ecovis-logo.jpeg" alt=""></a>
                 </div>
                 <div style="display:none;" class="w-50" id="searchbar_section">
                     <div class="align-items-center d-flex px-4 searchbar ">
@@ -70,30 +103,46 @@
                 </div>
                 <div id="menu" class="menu" style="width: 60%; z-index:50;">
                     <ul class="d-flex mb-0 justify-content-around list-unstyled">
-                        <a href="#">
+                        <a href="./index" class='nav-link active-link' id='home-a'>
+                            <li class="">Home</li>
+                            <div class="underline"></div>
+                        </a>
+                        <a href="#" class='nav-link ' id='about_us-a'>
                             <li id="about_us" class="about_us">About Us</li>
+                            <div class="underline"></div>
                         </a>
-                        <a href="./client_stories">
-                            <li>Client Stories</li>
+
+                        <a href="./client_stories" class='nav-link ' id='aclient_stories-a'>
+                            <li id="client_stories">Client Stories</li>
+                            <div class="underline"></div>
                         </a>
-                        <a href="./collaborate">
+
+                        <a href="./collaborate" class='nav-link ' id='collaborate-a'>
                             <li>mentor bi</li>
+                            <div class="underline"></div>
                         </a>
-                        <a href="#">
+
+                        <a href="#" class='nav-link ' id='services-a'>
                             <li id="services">Practice Areas</li>
+                            <div class="underline"></div>
                         </a>
-                        <a href="./team">
+
+                        <a href="./team" class='nav-link ' id='team-a'>
                             <li>Experts on Board</li>
+                            <div class="underline"></div>
                         </a>
+
                         <!-- <a href="./NewsLetter">
                             <li>Newsletter</li>
                         </a> -->
                         <!-- <a href="./careers">
                             <li>Careers</li>
                         </a> -->
-                        <a href="./contact_us">
+                        <a href="./contact_us" class='nav-link ' id='contact_us-a'>
                             <li>Contact Us</li>
+                            <div class="underline"></div>
                         </a>
+
                         <a href="#" id="toggleSearch">
                             <li><span><i class="fa-solid text-danger fa-magnifying-glass"></i></span></li>
                         </a>
@@ -111,10 +160,9 @@
                     <img src="./images/ecovis_logoes/Ecovis_rkca_logo_ball2.png" alt="" class="rounded-circle">
                 </div>
                 <h4 class="text-light  mt-3">Let’s Connect</h4>
-                <p class="mx-auto text-justify text-light mt-5 w-75">RKCA is an organization excelled by its Competency
+                <p class="mx-auto text-justify text-light mt-3 w-75">RKCA is an organization excelled by its Competency
                     Centers with more than 5 decades of presence in India, having a global footprint with associates in
-                    more than 70+ countries. Our Purpose is to mentor start-ups &amp; SMEs of today as MNC’s for
-                    tomorrow.</p>
+                    more than 90+ countries. Our Purpose is to mentor Entities of today to be MNC’s for tomorrow.</p>
                 <a href="./contact_us"><button class="btn header_connectBTN mb-4 font-weight-bold text-light">CONTACT
                         US</button></a>
             </div>
@@ -216,8 +264,9 @@
                     <img src="./images/ecovis_logoes/Mentor_bi.png" alt="" class="rounded-circle w-100">
                 </div>
                 <h4 class="text-light  mt-3">Let’s Connect</h4>
-                <P class="mx-auto text-justify text-light w-75">ACE Methodology, technology
-                    And Independent expertise is Hallmark of COE
+                <P class="mx-auto text-justify text-light w-75">RKCA is an organization excelled by its Competency
+                    Centers with more than 5 decades of presence in India, having a global footprint with associates in
+                    more than 90+ countries. Our Purpose is to mentor Entities of today to be MNC’s for tomorrow.
                 </P>
                 <button class="btn header_connectBTN font-weight-bold text-light">CONTACT US</button>
             </div>
@@ -273,11 +322,13 @@
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75    ">
                                                 <img src="./images/ecovis_logoes/rkda.png" class="" style="width: 100%;"
-                                                alt="">
+                                                    alt="">
                                             </div>
                                             <div class="col-9 pl-0">
-                                                <h5 class="mb-1 serviceName">Business Support  and Financial Reporting</h5>
-                                                <p class="mb-0 small">Efficient business support is crucial for accurate financial reporting and sustained organizational growth.</p>
+                                                <h5 class="mb-1 serviceName">Business Support and Financial Reporting
+                                                </h5>
+                                                <p class="mb-0 small">Efficient business support is crucial for accurate
+                                                    financial reporting and sustained organizational growth.</p>
                                             </div>
                                         </div>
                                     </li>
@@ -509,6 +560,55 @@
             }
         });
     </script>
+
+    <script>
+        $(document).ready(function () {
+            // Check local storage for active link information
+            const activeLink = localStorage.getItem('activeLink');
+            if (activeLink) {
+                $('.active-link').removeClass('active-link');
+                $(activeLink).addClass('active-link');
+            }
+
+            // Apply click event to links
+            $('.nav-link').on('click', function () {
+                // Remove active link from all links
+                $('.active-link').removeClass('active-link');
+
+                // Add active-link class to clicked link
+                $(this).addClass('active-link');
+
+                // Store active link information in local storage
+                const activeLinkId = '#' + $(this).attr('id');
+                localStorage.setItem('activeLink', activeLinkId);
+            });
+
+            $('#ecovis-logo').on('click', function (e) {
+                e.preventDefault(); // Prevent the default action of the link
+
+                $('.active-link').removeClass('active-link');
+                $('#home-a').addClass('active-link');
+                const activeLinkId = '#home-a';
+                localStorage.setItem('activeLink', activeLinkId);
+
+                const currentURL = window.location.href;
+
+                // Extract the base URL without the page name
+                const baseURL = currentURL.substring(0, currentURL.lastIndexOf('/') + 1);
+
+                // Define the page you want to navigate to
+                const pageToNavigate = 'index'; // Replace with your desired page name
+
+                // Construct the new URL by combining the base URL and the page name
+                const newURL = baseURL + pageToNavigate;
+
+                // Navigate to the new URL
+                window.location.href = newURL;
+            });
+        });
+
+    </script>
+
 </body>
 
 </html>

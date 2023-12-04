@@ -56,9 +56,9 @@
     <div class="row justify-content-around " style="margin: 3.5rem 0rem;">
         <div class="col-md-8">
             <div class="text-center">
-                <h2 class="text-center mb-5" style="font-size: var(--primary_Font_size); font-weight:var(--heading_font_weight);">We will believe in bringing out the best from the people who work with us</h2>
+                <h2 class="text-center mb-3" style="font-size: var(--primary_Font_size); font-weight:800;">We will believe in bringing out the best from the people who work with us*</h2>
 
-                <p class="w-75 mx-auto  text-center " style="font-size: var(--secondry_font_size); font-weight:var(--box_normal_text);">At ECOVIS RKCA , we're excited to be a part of decade we believe belong to India, a key pillar for us  to develop our own ability  is by investing in people. We are constantly looking to expand our family, please connect if you want to be a part of the exciting journey.
+                <p class="w-75 mx-auto " style="font-size: var(--secondry_font_size); font-weight:var(--box_normal_text);text-align:justify !important">At ECOVIS RKCA , we're excited to be a part of decade we believe belong to India, a key pillar for us  to develop our own ability  is by investing in people. We are constantly looking to expand our family, please connect if you want to be a part of the exciting journey.
 
                 </p>
 

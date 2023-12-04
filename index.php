@@ -8,7 +8,9 @@
     <title>ECOVISRKCA - Ecovis</title>
     <link rel="icon" href="./images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
     <style>
         .client_stories_details {
             display: block;
@@ -32,10 +34,27 @@
             text-overflow: ellipsis;
 
         }
-        .carousel-control-next-icon{
-        background-color: white ;
-    }
-      
+
+        .carousel-control-next-icon {
+            background-color: white;
+        }
+
+        .fadeInUp {
+            animation: fadeInUp 1s ease backwards;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                transform: translate(0px, 100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translate(0px, 0);
+                opacity: 1;
+            }
+        }
     </style>
 
 </head>
@@ -49,61 +68,79 @@
     <div id="homebannner" class="carousel slide" style="height: 450px;" data-ride="carousel">
         <div class="carousel-inner h-100">
             <div class=" carousel-item active">
-                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b1_ecovis_india.png" style="height: 450px;" alt="First slide">
+                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b1_ecovis_india.png"
+                    style="height: 450px;" alt="First slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption ">
                     <div class="animate__animated animate__fadeInDown">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem;" class="">RKCA INDIA</h1>
                         <h3 class="font-weight-normal">Broaden your business horizon with us</h3>
-                        <a href="./ecovis_india"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR OFFICES</button></a>
+                        <a href="./ecovis_india"> <button class="btn text-light mt-5"
+                                style="border: 2px solid whitesmoke; background-color: transparent;">OUR
+                                OFFICES</button></a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item ">
-                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b2_our_team.png" style="height: 450px;" alt="Second slide">
+                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b2_our_team.png" style="height: 450px;"
+                    alt="Second slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/careers_banner.png" style="height: 450px;" alt="Second slide"> -->
                 <div class="carousel-caption ">
                     <div class="animate__animated animate__fadeInDown">
-                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent;">RKCA INDIA</h1>
+                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent;">RKCA
+                            INDIA</h1>
                         <h3 class="font-weight-normal">The people who intensify our Business</h3>
-                        <a href="./team"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR TEAM</button></a>
+                        <a href="./team"> <button class="btn text-light mt-5"
+                                style="border: 2px solid whitesmoke; background-color: transparent;">OUR
+                                TEAM</button></a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b3_job_vaccancies.png" style="height: 450px;" alt="Third slide">
+                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b3_job_vaccancies.png"
+                    style="height: 450px;" alt="Third slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption ">
                     <div class="animate__animated animate__fadeInDown">
-                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA INDIA</h1>
+                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA
+                            INDIA</h1>
                         <h3 class="font-weight-normal">Build your future with us </h3>
-                        <a href="./careers"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">CAREER PATHS</button></a>
+                        <a href="./careers"> <button class="btn text-light mt-5"
+                                style="border: 2px solid whitesmoke; background-color: transparent;">CAREER
+                                PATHS</button></a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="./images/ecovis_banners/lets_connect.png" style="height: 450px;" alt="Forth slide">
+                <img class="d-block w-100" src="./images/ecovis_banners/lets_connect.png" style="height: 450px;"
+                    alt="Forth slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption">
                     <div class="animate__animated animate__fadeInDown">
-                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA INDIA</h1>
+                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA
+                            INDIA</h1>
                         <!-- <h3 class="font-weight-normal">Network with us</h3> -->
-                        <a href="./careers"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">LET'S CONNECT</button></a>
+                        <a href="./careers"> <button class="btn text-light mt-5"
+                                style="border: 2px solid whitesmoke; background-color: transparent;">LET'S
+                                CONNECT</button></a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="./images/ecovis_banners/mentor_bi.png" style="height: 450px;" alt="Fifth slide">
+                <img class="d-block w-100" src="./images/ecovis_banners/mentor_bi.png" style="height: 450px;"
+                    alt="Fifth slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption ">
                     <div class="animate__animated animate__fadeInDown">
-                        <img src="./images/ecovis_logoes/Mentor_bi.png" class="w-25 mb-3 mt-4" style="min-width: 120px;" alt="">
+                        <img src="./images/ecovis_logoes/Mentor_bi.png" class="w-25 mb-3 mt-4" style="min-width: 120px;"
+                            alt="">
                         <!-- <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA  INDIA</h1> -->
                         <h3 class="font-weight-normal">An initiative for Business Transformation</h3>
 
                         <!-- <p class="normalText">An initiative for Business Transformation</p> -->
                         <!-- <h3 class="font-weight-normal">Network with us</h3> -->
-                        <a href="./careers"> <button class="btn text-light mt-3" style="border: 2px solid whitesmoke; background-color: transparent;">EXPLORE</button></a>
+                        <a href="./careers"> <button class="btn text-light mt-3"
+                                style="border: 2px solid whitesmoke; background-color: transparent;">EXPLORE</button></a>
                     </div>
                 </div>
             </div>
@@ -184,15 +221,16 @@
 
 
     <!-- offering services  -->
-    <div class="my-5">
-        <h2 class="text-center ">Services offered by our experts at Ecovis</h2>
+    <div id="glance-div">
+    <div class="my-5 ">
+        <h2 class="text-center ">Practice Area At Glance</h2>
 
     </div>
     <div class="row mx-0 justify-content-center">
         <div class="col-lg-12 col-sm-11">
             <div class="row mx-0 justify-content-around">
 
-            <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
+                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn ">
                     <a href="./LitigationLegalServices" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
@@ -200,23 +238,27 @@
 
                                 <img src="./new_icon_images/Legalb.png" class="index-service-logo" alt="">
                             </div>
-                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Legal and GRC Services</h4>
-                            <p class="offeringservicesdetails">We create a platform to offer you legal services and consultancy.</p>
+                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Legal and GRC Services
+                            </h4>
+                            <p class="offeringservicesdetails">We create a platform to offer you legal services and
+                                consultancy.</p>
                         </div>
                     </a>
 
 
                 </div>
-           
-                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
+
+                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn ">
                     <a href="./BusinessSupportandFinancialReporting" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
                                 <!-- <div class=" w-75 mx-auto businessSupport_logo services_logo"></div> -->
                                 <img src="./new_icon_images/BusinessSupportb.png" class="index-service-logo" alt="">
                             </div>
-                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Business Support  and Financial Reporting</h4>
-                            <p class="offeringservicesdetails">Offering accounting business support to grow your business.</p>
+                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Business Support and
+                                Financial Reporting</h4>
+                            <p class="offeringservicesdetails">Offering accounting business support to grow your
+                                business.</p>
                         </div>
                     </a>
 
@@ -224,37 +266,42 @@
             </div>
 
             <div class="row mx-0 justify-content-around">
-           
-                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
-                    <a href="./Strategy_Performance_Consulting_services" class="text-dark" style="text-decoration: none;">
+
+                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn ">
+                    <a href="./Strategy_Performance_Consulting_services" class="text-dark"
+                        style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons  ">
                                 <!-- <div class=" w-75 mx-auto services_logo Strategy_Performance_Consulting_logo "></div> -->
                                 <img src="./ecovis_icons/Assurance.png" class="index-service-logo" alt="">
                             </div>
                             <h4 class="offeringservicesHeading primaryHeading">Strategy & Performance Consulting </h4>
-                            <p class="offeringservicesdetails">Giving you the certainty to drive open and straightforward development.</p>
+                            <p class="offeringservicesdetails">Giving you the certainty to drive open and
+                                straightforward development.</p>
                         </div>
                     </a>
 
                 </div>
             </div>
             <div class="row mx-0  justify-content-around">
-                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
+                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn ">
                     <a href="./Digital_transformation" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
                                 <!-- <div class=" w-75 mx-auto Digital_Transformationb_logo services_logo"></div> -->
 
-                                <img src="./new_icon_images/Digital_Transformationb.png" class="index-service-logo" alt="">
+                                <img src="./new_icon_images/Digital_Transformationb.png" class="index-service-logo"
+                                    alt="">
                             </div>
-                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Digital Transformation</h4>
-                            <p class="offeringservicesdetails">Transform and foster your business digitally using our digital transformation services.</p>
+                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Digital Transformation
+                            </h4>
+                            <p class="offeringservicesdetails">Transform and foster your business digitally using our
+                                digital transformation services.</p>
                         </div>
                     </a>
 
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
+                <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn ">
                     <a href="./Financial_and_Capital_Services" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
@@ -262,19 +309,21 @@
 
                                 <img src="./ecovis_icons/Growth-Services.png" class="index-service-logo" alt="">
                             </div>
-                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Financial & Capital Services </h4>
-                            <p class="offeringservicesdetails">We want to build a long-term value in the financial services business by transforming it from the ground up.</p>
+                            <h4 class="offeringservicesHeading primaryHeading text-capitalize">Financial & Capital
+                                Services </h4>
+                            <p class="offeringservicesdetails">We want to build a long-term value in the financial
+                                services business by transforming it from the ground up.</p>
                         </div>
                     </a>
 
                 </div>
-             </div>
-          
+            </div>
+
         </div>
+    </div>
     </div>
 
 
-  
     <!-- Client stories  -->
     <div class="mainHeading text-center  mt-5" id="client_Stories">
         <h2 class="text-capitalize mainHeading mb-5">Know Us through Our Clients</h2>
@@ -282,12 +331,17 @@
     <div class=" owl-carousel owl-theme mt-4 mb-0 position-relative">
         <div class="1 item  client_story">
             <div class=" float-right">
-                <img id="client_stories_1" src="./images/clientStoriesImages/c1_baggingoutcomes_r.jpg" class="w-100 client_stories_images" alt="">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c1_baggingoutcomes_r.jpg"
+                    class="w-100 client_stories_images" alt="">
                 <div class="pb-3 pt-4 px-4">
                     <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
-                    <p class="client_stories_details text-justify">The main motive of our company which is completely aimed at is to render professional services to its potential clients from different fields of the varied economy sectors.</p>
+                    <p class="client_stories_details text-justify">The main motive of our company which is completely
+                        aimed at is to render professional services to its potential clients from different fields of
+                        the varied economy sectors.</p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage1"><span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage1"><span
+                                class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read
+                                more...</span></a>
                     </div>
                     <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
                 </div>
@@ -297,14 +351,20 @@
         </div>
         <div class="2 item  client_story">
             <div class=" float-right">
-                <img id="client_stories_1" src="./images/clientStoriesImages/c2_lendinghand_r.jpg" class="w-100 client_stories_images" alt="">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c2_lendinghand_r.jpg"
+                    class="w-100 client_stories_images" alt="">
 
                 <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
-                    <h5 class="client_stories_heading text-center">A Lending Hand for the procuration of the client!</h5>
-                    <p class="client_stories_details text-justify mb-2">With the mission of owning and operating high-quality wireless infrastructure sites in stable markets, PTI was established in the year 2013.</p>
+                    <h5 class="client_stories_heading text-center">A Lending Hand for the procuration of the client!
+                    </h5>
+                    <p class="client_stories_details text-justify mb-2">With the mission of owning and operating
+                        high-quality wireless infrastructure sites in stable markets, PTI was established in the year
+                        2013.</p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage2"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage2"> <span
+                                class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read
+                                more...</span></a>
                     </div>
                     <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
                 </div>
@@ -314,15 +374,21 @@
         </div>
         <div class="3 item  client_story">
             <div class=" float-right">
-                <img id="client_stories_1" src="./images/clientStoriesImages/c3_Facilitationofcollective_r.png" class="w-100 client_stories_images" alt="">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c3_Facilitationofcollective_r.png"
+                    class="w-100 client_stories_images" alt="">
 
 
                 <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
-                    <h5 class="client_stories_heading text-center">Facilitation of collective outsources accounting, local tax compliance, and company formation services!</h5>
-                    <p class="client_stories_details text-justify mb-2">The client is a subsidiary of a multinational company based in Turkey that functions in various fields of batteries, chargers, accessories for motive, etc.</p>
+                    <h5 class="client_stories_heading text-center">Facilitation of collective outsources accounting,
+                        local tax compliance, and company formation services!</h5>
+                    <p class="client_stories_details text-justify mb-2">The client is a subsidiary of a multinational
+                        company based in Turkey that functions in various fields of batteries, chargers, accessories for
+                        motive, etc.</p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage3"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage3"> <span
+                                class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read
+                                more...</span></a>
 
                         <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
@@ -334,14 +400,20 @@
         </div>
         <div class="4 item  client_story">
             <div class=" float-right">
-                <img id="client_stories_1" src="./images/clientStoriesImages/c4_facilitating_r.png" class="w-100 client_stories_images" alt="">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c4_facilitating_r.png"
+                    class="w-100 client_stories_images" alt="">
 
                 <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
-                    <h5 class="client_stories_heading text-center">Facilitating assistance for the expansion of Spanish automotive components producer.</h5>
-                    <p class="client_stories_details text-justify mb-2">Our consumer could be a major transnational company within the automotive sector, with varied plants in Spain that manufacture automotive components. </p>
+                    <h5 class="client_stories_heading text-center">Facilitating assistance for the expansion of Spanish
+                        automotive components producer.</h5>
+                    <p class="client_stories_details text-justify mb-2">Our consumer could be a major transnational
+                        company within the automotive sector, with varied plants in Spain that manufacture automotive
+                        components. </p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage4"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage4"> <span
+                                class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read
+                                more...</span></a>
 
                         <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
@@ -353,14 +425,19 @@
         </div>
         <div class="5 item  client_story">
             <div class=" float-right">
-                <img id="client_stories_1" src="./images/clientStoriesImages/c5_renderingextensive_r.png" class="w-100 client_stories_images" alt="">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c5_renderingextensive_r.png"
+                    class="w-100 client_stories_images" alt="">
 
                 <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
-                    <h5 class="client_stories_heading text-center">Rendering extensive start-up services to our clients!</h5>
-                    <p class="client_stories_details text-justify mb-2">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series,</p>
+                    <h5 class="client_stories_heading text-center">Rendering extensive start-up services to our clients!
+                    </h5>
+                    <p class="client_stories_details text-justify mb-2">KEO Films, which had recently won a contract to
+                        make an Australian adaptation of a UK TV series,</p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage5"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage5"> <span
+                                class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read
+                                more...</span></a>
 
                         <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
@@ -372,14 +449,19 @@
         </div>
         <div class="6 item  client_story">
             <div class=" float-right">
-                <img id="client_stories_1" src="./images/clientStoriesImages/c6_assisstanceprovided_r.png" class="w-100 client_stories_images" alt="">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c6_assisstanceprovided_r.png"
+                    class="w-100 client_stories_images" alt="">
 
                 <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
-                    <h5 class="client_stories_heading text-center">Assistance provided to electrical contractors for avoiding double taxation.</h5>
-                    <p class="client_stories_details text-justify mb-2">Our client is a massive electrical contracting business located in New Zealand. </p>
+                    <h5 class="client_stories_heading text-center">Assistance provided to electrical contractors for
+                        avoiding double taxation.</h5>
+                    <p class="client_stories_details text-justify mb-2">Our client is a massive electrical contracting
+                        business located in New Zealand. </p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage6"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage6"> <span
+                                class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read
+                                more...</span></a>
 
                         <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
@@ -428,7 +510,8 @@
 
     </div>
     <div class="text-center">
-        <a href="./client_stories"><button class="badge-pill btn btn-danger font-weight-bold mb-5 px-5">Explore All</button></a>
+        <a href="./client_stories"><button class="badge-pill btn btn-danger font-weight-bold mb-5 px-5">Explore
+                All</button></a>
     </div>
 
     <!-- footer  -->
@@ -436,7 +519,7 @@
 
 
     <script>
-        $("#indexProblem").click(function() {
+        $("#indexProblem").click(function () {
             $("#indexProblemDD").slideToggle("fast");
         });
     </script>
@@ -444,7 +527,9 @@
     <!-- oul carousel javascript cdn  -->
     <script src="./bootstrap/js/javascript.js"></script>
     <!-- <script src="./js/javascript.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
     <script>
         $('.owl-carousel').owlCarousel({
@@ -479,7 +564,7 @@
 
 
 
-        $("#servicebtn").click(function() {
+        $("#servicebtn").click(functio n() {
             $(".FIRSTserviceDD").slideDown();
         });
 
@@ -496,12 +581,36 @@
             $("#" + childId).slideDown();
         }
 
-        $(document).mouseup(function(e) {
-            if ($(e.target).closest(".baseofselectedService").length === 0) {
-                $(".baseofselectedService").slideUp();
-                $(".FIRSTserviceDD").slideUp();
+        $(document).mouseup(functi on(e) {
+            if($(e.target).closest(".baseofselectedService").length === 0) {
+            $(".baseofselectedService").slideUp();
+            $(".FIRSTserviceDD").slideUp();
+        }
+        });
+    </script>
+    <script>
+        document.addEventListener('scroll', function () {
+            const targetDiv = document.getElementById('glance-div');
+            const boxPosition = targetDiv.getBoundingClientRect().top;
+
+            if (boxPosition < window.innerHeight ) {
+               
+                document.querySelector('#glance-div h2').classList.add('fadeInUp');
+               let divList= document.querySelectorAll('#glance-div .serviceColomn');
+               divList.forEach(element => {
+                element.classList.add('fadeInUp');
+               });
+               
+            } else {
+                document.querySelector('#glance-div h2').classList.remove('fadeInUp');
+                let divList= document.querySelectorAll('#glance-div .serviceColomn');
+               divList.forEach(element => {
+                element.classList.remove('fadeInUp');
+               });
+             
             }
         });
+
     </script>
 </body>
 

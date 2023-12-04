@@ -56,6 +56,39 @@
             min-height: 404.27px;
         }
     </style>
+    <style>
+    .menu ul a .underline {
+        height: 3px;
+        background-color: transparent;
+        width: 0%;
+        transition: width 0.2s, background-color 0.5s;
+        margin: 0 auto;
+    }
+
+    .menu ul a.active-link .underline {
+        width: 100%;
+        background-color: crimson;
+    }
+
+    .menu ul a:hover .underline {
+        background-color: crimson;
+        width: 100%;
+    }
+
+    .menu ul a.nav-link {
+        padding: 0px !important;
+    }
+
+    .menu ul a:active li {
+        transition: none;
+        color: rgba(255, 255, 255, 0.76);
+    }
+
+    .menu ul a:active .underline {
+        transition: none;
+        background-color: rgba(255, 255, 255, 0.76);
+    }
+</style>
 </head>
 
 <body>
@@ -154,7 +187,7 @@ const clientStoriesCartArr = [{'image':'c1_baggingoutcomes_r.jpg', 'heading':'Co
 
 ];
 for(let i of clientStoriesCartArr){
-    console.log(i.readmoreLink);
+    // console.log(i.readmoreLink);
      clientStoriesCart(i.image, i.heading, i.content, i.readmoreLink, i.filter_class);
     // var htmlrow = `<div clas="row"></div>`;
     // $("#clientStoriesList").append(fn);
@@ -295,5 +328,47 @@ var Legal_Services_heading = $(".Legal_Services").children().children(1).childre
 
 
 </script>
+<script>
+        // $('.nav-link').on('click', function () {
+        //     $('.active-link').removeClass('active-link');
+        //     $(this).addClass('active-link');
+        // });
+
+        // JavaScript code
+        // $(document).ready(function () {
+        //     // Check local storage for active link information
+        //     const activeLink = localStorage.getItem('activeLink');
+        //     if (activeLink) {
+        //         $('.active-link').removeClass('active-link');
+        //         $(activeLink).addClass('active-link');
+        //     }
+
+        //     // Apply click event to links
+        //     $('.nav-link').on('click', function () {
+        //         // Remove active link from all links
+        //         $('.active-link').removeClass('active-link');
+
+        //         // Add active-link class to clicked link
+        //         $(this).addClass('active-link');
+
+        //         // Store active link information in local storage
+        //         const activeLinkId = '#' + $(this).attr('id');
+        //         console.log($(this).attr('id'),activeLinkId,'ahsldhfvhla');
+        //         localStorage.setItem('activeLink', activeLinkId);
+        //     });
+
+        //     $('#ecovis-logo').on('click', function (e) {
+        //         e.preventDefault(); // Prevent the default action of the link
+                
+        //         $('.active-link').removeClass('active-link');
+        //         $('#home-a').addClass('active-link');
+        //         const activeLinkId = '#home-a' ;
+        //         localStorage.setItem('activeLink', activeLinkId);
+
+              
+        //     });
+        // });
+
+    </script>
 
 </html>

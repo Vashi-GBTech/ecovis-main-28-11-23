@@ -93,7 +93,22 @@
         box-shadow: 0px 2px 3px 1px lightgray;
         background-color: whitesmoke;
     }
+    .fadeInUp {
+            animation: fadeInUp 1s ease backwards;
+            animation-delay: 0.5s;
+        }
 
+        @keyframes fadeInUp {
+            0% {
+                transform: translate(0px, 100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translate(0px, 0);
+                opacity: 1;
+            }
+        }
     /* *{
         border: 1px solid red;
     } */
@@ -106,7 +121,7 @@
 
     <div class="align-items-center ecovisInternationalBanner d-flex justify-content-around pageBanner">
         <div class="">
-            <p class="mainHeading text-center text-light">ECOVIS International
+            <p class="mainHeading text-center text-light fadeInUp">ECOVIS International
             </p>
         </div>
         <!-- <img src="" alt=""> -->
@@ -178,6 +193,22 @@
                         </div>
                     </div>
                 </div>
+                 <div class='d-flex justify-content-center my-5'>
+                 <div class="col-md-6 team-person-div">
+                <div class="col-md-10 mx-auto pb-2 pt-4 text-center " style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
+                    <div class="mb-4">
+                        <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt="">
+                        <h6 class="text-danger">Dubai-UAE</h6>
+                    </div>
+                    <div class="">
+                        <p class="small text-muted mb-0">Mentor</p>
+                        <h6 class="text-danger">Parag</h6>
+                        <p class="px-4">C-11 , 484 Hamssah A Complex Al Karama Dubai -UAE</p>
+                    </div>
+
+                </div>
+            </div>
+                 </div>
                 <div class="justify-content-around row mx-0 mb-5">
                     <div class="col-lg-9 col-md-10">
                         <div class="row">
@@ -241,7 +272,7 @@
                                 <p class="primaryHeading text-danger">No matter where you do business, we have specialists who can help</p>
                             </div>
                             <div class="col-9">
-                                <p class="ml-3 pl-4 text-justify" style=" font-size: var(--secondry_font_size);">
+                                <p class="ml-3 pl-4 text-justify" id="future-engaging-points" style=" font-size: var(--secondry_font_size);">
                                     ECOVIS Wingrave Yeats are a proud member of ECOVIS International,
                                     a network of like minded firms delivering consistent, high-quality
                                     expertise in over 80 countries, including the major trading centres
@@ -258,7 +289,7 @@
                                 <p class="primaryHeading text-danger">Global expertise with local faces</p>
                             </div>
                             <div class="col-9">
-                                <p class="ml-3 pl-4 text-justify" style=" font-size: var(--secondry_font_size);">
+                                <p class="ml-3 pl-4 text-justify " id="future-engaging-points" style=" font-size: var(--secondry_font_size);">
                                     Offering the best of both worlds, we aim to combine the personal,
                                     proactive and practical approach of a local professional firm with the
                                     wealth and diversity of international experience and expertise that
@@ -276,7 +307,7 @@
 
                             </div>
                             <div class="col-9">
-                                <p class="ml-3 pl-4 text-justify" style=" font-size: var(--secondry_font_size);">
+                                <p class="ml-3 pl-4 text-justify" id="future-engaging-points-large" style=" font-size: var(--secondry_font_size);">
                                     Each Partner is invested in growing the ECOVIS International network
                                     for our clients benefit by nurturing and developing our relationships
                                     and special family culture which is embraced by all member firms.
@@ -285,6 +316,7 @@
                                     experts from a wide range of industry sectors and disciplines to
                                     provide a service that is specially tailored to your needs.
                                 </p>
+                                <div id='remained-part-future-engaging' style='display:none'>
                                 <p class="ml-3 pl-4 text-justify" style=" font-size: var(--secondry_font_size);">
                                     “We don t put you through to just anybody, we know the right person
                                     who will work with you and us to make it a success. We know each
@@ -304,6 +336,9 @@
                                     global solution tailored to your business needs.
 
                                 </p>
+
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -319,7 +354,42 @@
     <script src="./js/jqvmap/dist/jquery.vmap.min.js"></script>
     <script type="text/javascript" src="./js/jqvmap/dist/maps/jquery-jvectormap-in-merc.js" charset="utf-8"></script>
     <script src="./js/javascript.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const paragraphs = document.querySelectorAll('#future-engaging-points');
+            paragraphs.forEach(paragraph => {
+               seeMore(paragraph,'s');
+            });
+            const LargerParagraph = document.querySelector('#future-engaging-points-large');
+             if (LargerParagraph) {
+                seeMore(LargerParagraph,'l');
+             }
+        });
+        function seeMore(paragraph,type){
+            const words = paragraph.textContent.split(' ');
+                let wordsArray = words.filter(word => word.trim() !== '');
+                // console.log(wordsArray,'words');
+                if (wordsArray.length > 20) {
+                    const firstPart = wordsArray.slice(0, 20).join(' ');
+                    const secondPart = wordsArray.slice(20).join(' ');
+                    paragraph.innerHTML = `${firstPart} <span class="see-more-link fw-bold" style="color: crimson; cursor: pointer;">See more</span><span class="remaining-text" style="display: none;"> ${secondPart}</span>`;
+                    const seeMoreLinks = paragraph.querySelectorAll('.see-more-link');
+                    const remainingTexts = paragraph.querySelectorAll('.remaining-text');
+                    seeMoreLinks.forEach(seeMore => {
+                        seeMore.addEventListener('click', function () {
+                            seeMore.style.display = 'none';
+                            remainingTexts.forEach(remainingText => {
+                                remainingText.style.display = 'inline';
+                            });
+                            if (type === 'l') {
+                                $('#remained-part-future-engaging').css('display', 'block');
 
+                            }
+                        });
+                    });
+                }
+        }
+    </script>
 </body>
 
 </html>

@@ -78,7 +78,7 @@
                         <div class="col-9">
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Business Valuations </p>
 
-                            <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                            <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                             
 
 We have clients with valuation of their enterprises and commercial interests, as well as tangible and intangible assets and complicated, difficult-to-value instruments.
@@ -103,7 +103,7 @@ We have clients with valuation of their enterprises and commercial interests, as
                         <div class="col-9">
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Trade & Working Capital Finance</p>
 
-                            <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                            <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                            
 Our broad trade and capital finance capabilities provide you with the flexibility and control you need to achieve your financial objectives.
 
@@ -127,7 +127,7 @@ Our broad trade and capital finance capabilities provide you with the flexibilit
                         <div class="col-9">
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Financial Restructuring </p>
 
-                            <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                            <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                            
 We assist you in developing a pre-and post-financial restructuring action plan, as well as contingency preparations.
 
@@ -151,7 +151,7 @@ We assist you in developing a pre-and post-financial restructuring action plan, 
                         <div class="col-9">
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Financial Planning And Control </p>
 
-                            <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                            <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
 We assist you in developing a strategy that will support your organization's whole financial planning and control process.
 </p>    
                         </div>
@@ -173,7 +173,7 @@ We assist you in developing a strategy that will support your organization's who
                         <div class="col-9">
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Business Plan Pitch Decks </p>
 
-                            <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                            <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                            
 We provide end-to-end support for creating business plan pitch decks, with a strong emphasis on storytelling to ensure that the startup founder's vision is conveyed.
 </p>
@@ -196,7 +196,7 @@ We provide end-to-end support for creating business plan pitch decks, with a str
                         <div class="col-9">
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Budgeting and Capital Advisory </p>
 
-                            <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                            <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                            
 We assist you in determining your budgeting and capital requirements by estimating the entire project before it is completed.
 
@@ -226,7 +226,7 @@ We assist you in determining your budgeting and capital requirements by estimati
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                        <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                         Finance blood line of any  business. But rarely we understand importance of managing , the power of finance is never unlocked. As Strategic Finance partnew we enable capability building to Co-Create common understanding for  finance and  business, to develop unique ability of becoming proactive and pragmatic enbling BIG PICTURE thinking. Internal capability building with external expertise of Fund Raising, Financial planning, Business Reporting, energise with AI Driven Compliance reporting and Book Keeping is
                         </p>
                     </div>
@@ -248,7 +248,7 @@ We assist you in determining your budgeting and capital requirements by estimati
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                     Empower your financial journey with our services, guiding you through pre- and post-financial restructuring. We offer strategic action plans and contingency preparations to navigate the complexities, ensuring a robust and resilient financial future for your business
                         </p>
                     </div>
@@ -272,7 +272,7 @@ We assist you in determining your budgeting and capital requirements by estimati
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                    
 
                         </p>
@@ -295,7 +295,7 @@ We assist you in determining your budgeting and capital requirements by estimati
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                    
 
                         </p>
@@ -318,7 +318,7 @@ We assist you in determining your budgeting and capital requirements by estimati
                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                     Established since 1974 and having presence in all major cities of India and , we have privilege of constantly interacting with startups and Business as well as HNI and Investors, so either if client is  looking for help to invest or need assistance to raise capital, our experience of buyside/sell side advisory and network in 90 Countries will be of advantage. 
 
                         </p>
@@ -341,7 +341,7 @@ We assist you in determining your budgeting and capital requirements by estimati
                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                    <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
+                    <p class="ml-3 pl-4 see-more" style=" font-size: var(--secondry_font_size);">
                     A Merger or an Acquisition is not made on the negotiation table or in a board room. It is all those things that happen after they come together, and appreciating before they decided to be together. We help businesses unlock this value with an objective oriented, procedurally structured, outcome based view to synergy.  We hand hold clients from Due Diligence, Synergy analytics, transaction structuring, transaction management or post transaction integration.
 
                      </p>
@@ -354,6 +354,31 @@ We assist you in determining your budgeting and capital requirements by estimati
     <!-- footer  -->
     <?php include_once "footer.php" ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const paragraphs = document.querySelectorAll('.see-more');
+            paragraphs.forEach(paragraph => {
+                const words = paragraph.textContent.split(' ');
+                let wordsArray = words.filter(word => word.trim() !== '');
+                // console.log(wordsArray,'words');
+                if (wordsArray.length > 30) {
+                    const firstPart = wordsArray.slice(0, 30).join(' ');
+                    const secondPart = wordsArray.slice(30).join(' ');
+                    paragraph.innerHTML = `${firstPart} <span class="see-more-link fw-bold" style="color: crimson; cursor: pointer;">See more</span><span class="remaining-text" style="display: none;"> ${secondPart}</span>`;
+                    const seeMoreLinks = paragraph.querySelectorAll('.see-more-link');
+                    const remainingTexts = paragraph.querySelectorAll('.remaining-text');
+                    seeMoreLinks.forEach(seeMore => {
+                        seeMore.addEventListener('click', function () {
+                            seeMore.style.display = 'none';
+                            remainingTexts.forEach(remainingText => {
+                                remainingText.style.display = 'inline';
+                            });
+                        });
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

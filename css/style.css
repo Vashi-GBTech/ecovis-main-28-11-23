@@ -761,7 +761,7 @@ ul {
 /* ecovis international page css  */
 
 .ecovisInternationalBanner{
-    background-image: url(../images/ecovis_banners/ecovis_intl_banner.png);
+   background-image: url(../images/ecovis_banners/ecovis_intl_banner.png); 
     /* background-image: url(); */
     filter: brightness(1);
 
