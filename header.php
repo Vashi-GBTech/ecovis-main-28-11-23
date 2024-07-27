@@ -106,32 +106,32 @@
                 </div>
                 <div id="menu" class="menu" style="width: 60%; z-index:50;">
                     <ul class="d-flex mb-0 justify-content-around list-unstyled">
-                        <a href="./index" class='nav-link active-link' id='home-a'>
+                        <!-- <a href="./index" class='nav-link active-link' id='home-a'>
                             <li class="">Home</li>
                             <div class="underline"></div>
-                        </a>
+                        </a> -->
                         <a href="#" class='nav-link ' id='about_us-a'>
                             <li id="about_us" class="about_us">About Us</li>
                             <div class="underline"></div>
                         </a>
 
                         <a href="./client_stories" class='nav-link ' id='aclient_stories-a'>
-                            <li id="client_stories">Client Stories</li>
+                            <li id="client_stories">Insights</li>
                             <div class="underline"></div>
                         </a>
 
-                        <a href="./collaborate" class='nav-link ' id='collaborate-a'>
+                        <!-- <a href="./collaborate" class='nav-link ' id='collaborate-a'>
                             <li>mentor bi</li>
                             <div class="underline"></div>
-                        </a>
+                        </a> -->
 
                         <a href="#" class='nav-link ' id='services-a'>
-                            <li id="services">Practice Areas</li>
+                            <li id="services">Expertise</li>
                             <div class="underline"></div>
                         </a>
 
                         <a href="./team" class='nav-link ' id='team-a'>
-                            <li>Experts on Board</li>
+                            <li>Experts</li>
                             <div class="underline"></div>
                         </a>
 
@@ -146,9 +146,9 @@
                             <div class="underline"></div>
                         </a>
 
-                        <a href="#" id="toggleSearch">
+                        <!-- <a href="#" id="toggleSearch">
                             <li><span><i class="fa-solid text-danger fa-magnifying-glass"></i></span></li>
-                        </a>
+                        </a> -->
                     </ul>
 
                 </div>
@@ -263,13 +263,11 @@
 
         <div class="mx-0 row  position-absolute " style="display: none; z-index: 1;" id="services_menu">
             <div class="col-md-4 text-center" style="background: linear-gradient(0deg, #CD1432, #dc4f54);">
-                <div class="mt-5 mx-auto px-2 py-2 rounded-circle" style="width: 210px;">
-                    <img src="./images/ecovis_logoes/Mentor_bi.png" alt="" class="rounded-circle w-100">
+                <div class="mt-5 mx-auto px-2 py-2 bg-white" style="width: 210px;">
+                    <img src="./images/margom.png" alt="" class=" w-100">
                 </div>
-                <h4 class="text-light  mt-3">Let’s Connect</h4>
-                <P class="mx-auto text-justify text-light w-75">RKCA is an organization excelled by its Competency
-                    Centers with more than 5 decades of presence in India, having a global footprint with associates in
-                    more than 90+ countries. Our Purpose is to mentor Entities of today to be MNC’s for tomorrow.
+                <h4 class="text-light  mt-3">Our Ecosystem</h4>
+                <P class="mx-auto text-justify text-light w-75">Embark on a 50-year journey with us across the industry, where we've excelled in Law, Accounting, Business enablement, and Tech Acceleration,Growth , Partnerships. Explore our wealth of experience and expertise in these essential domains for your growth Journey through our essentials.
                 </P>
                 <button class="btn header_connectBTN font-weight-bold text-light">CONTACT US</button>
             </div>
@@ -346,9 +344,9 @@
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div
-                                                class="col-3 pr-0 text-center w-75  menu_services_logo financial_capital_Services">
-                                                <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 75%;"
-                                                alt=""> -->
+                                                class="col-3 pr-0 text-center w-75   financial_capital_Services">
+                                                <img src="./images/margom.png" class="" style="width: 90%;"
+                                                alt="">
                                             </div>
                                             <div class="col-9 pl-0">
                                                 <h5 class="mb-1 serviceName">Financial & Capital Services</h5>

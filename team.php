@@ -742,9 +742,9 @@
                         <h6 class="text-danger">CORPORATE OFFICE</h6>
                     </div>
                     <div class="">
-                        <p class="small text-muted mb-0">Mentor</p>
-                        <h6 class="text-danger">S C Kabra</h6>
-                        <p class="px-4">515, Tulsiani chambers, Nariman Point, Mumbai 400 021</p>
+                        <!-- <p class="small text-muted mb-0">Mentor</p> -->
+                        <!-- <h6 class="text-danger">S C Kabra</h6> -->
+                        <p class="px-4">Tulsiani chambers, Nariman Point, Mumbai</p>
                     </div>
 
                 </div>
@@ -757,8 +757,8 @@
                             <h6 class="text-danger text-uppercase">ahmedabad</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">M D Kabra</h6>
+                            <!-- <p class="small text-muted mb-0">Mentor</p> -->
+                            <!-- <h6 class="text-danger">M D Kabra</h6> -->
                             <p>Naharraj Leela, 1 Ganga Soc, Shahibaug</p>
                         </div>
 
@@ -769,9 +769,9 @@
                             <h6 class="text-danger">CHENNAI</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Rahul Nagar</h6>
-                            <p>17/39, Krishnappa Tank St, Konditope, Chennai – 600 079</p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Rahul Nagar</h6> -->
+                            <p>Krishnappa Tank St, Konditope, Chennai</p>
                         </div>
 
                     </div>
@@ -781,9 +781,9 @@
                             <h6 class="text-danger">DELHI</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Bharat Gupta</h6>
-                            <p>A 531, Shastri Nagar, New Delhi – 110052</p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Bharat Gupta</h6> -->
+                            <p>Shastri Nagar, New Delhi</p>
                         </div>
 
                     </div>
@@ -797,9 +797,9 @@
                             <h6 class="text-danger">HYDERABAD</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Jai Govind</h6>
-                            <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Jai Govind</h6> -->
+                            <p>Ramky House, Raj Bhavan Road, Hyderabad</p>
                         </div>
 
                     </div>
@@ -810,9 +810,9 @@
                             <h6 class="text-danger">INDORE</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Siddharth Baghmar</h6>
-                            <p>401, Fortune Ambience Business Spaces Indore (M.P) – 452001</p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Siddharth Baghmar</h6> -->
+                            <p>Fortune Ambience Business Spaces Indore (M.P)</p>
                         </div>
 
                     </div>
@@ -822,9 +822,9 @@
                             <h6 class="text-danger">JAIPUR</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Sushil Kumar</h6>
-                            <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Sushil Kumar</h6> -->
+                            <p>Ramky House, Raj Bhavan Road, Hyderabad</p>
                         </div>
 
                     </div>
@@ -837,9 +837,9 @@
                             <h6 class="text-danger">KOLKATA</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Pradip Das</h6>
-                            <p>4A/2, Anandam Apt, 7 Mall Road, Kolkata – 700 080</p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Pradip Das</h6> -->
+                            <p>Anandam Apt, 7 Mall Road, Kolkata</p>
                         </div>
 
                     </div>
@@ -849,9 +849,9 @@
                             <h6 class="text-danger">MUMBAI</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Hemant Vastani</h6>
-                            <p>1902 C, Kailas Business Park, Vikhroli – W, Mumbai – 400 079</p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Hemant Vastani</h6> -->
+                            <p>Kailas Business Park, Vikhroli</p>
                         </div>
 
                     </div>
@@ -861,9 +861,9 @@
                             <h6 class="text-danger">NAGPUR</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Deepak Heda</h6>
-                            <p>2nd Floor, Bhiwapurkar Chambers, Dhantoli, Nagpur, Maharashtra 440012</p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Deepak Heda</h6> -->
+                            <p>Bhiwapurkar Chambers, Dhantoli-Nagpur</p>
                         </div>
 
                     </div>
@@ -879,9 +879,9 @@
                             <h6 class="text-danger">Vashi</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Ram Varma</h6>
-                            <p>513, Arenja Corner, Vashi, Navi Mumbai – 400 703. </p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Ram Varma</h6> -->
+                            <p>Arenja Corner, Vashi, Navi Mumbai</p>
                         </div>
 
                     </div>
@@ -891,9 +891,9 @@
                             <h6 class="text-danger">PUNE</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Vishwanath Lele</h6>
-                            <p>4A/2, Anandam Apartment, 7 Mall Road, Dum Dum, Kolkata 700 080 Contact: +91 88796 36056</p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Vishwanath Lele</h6> -->
+                            <p>Anandam Apartment, 7 Mall Road, Dum Dum, Kolkata</p>
                         </div>
 
                     </div>
@@ -903,9 +903,9 @@
                             <h6 class="text-danger">JAIPUR</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Mentor</p>
-                            <h6 class="text-danger">Gaurav Choradia</h6>
-                            <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
+                            <!-- <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Gaurav Choradia</h6> -->
+                            <p>Ramky House, Raj Bhavan Road, Hyderabad</p>
                         </div>
 
                     </div>
